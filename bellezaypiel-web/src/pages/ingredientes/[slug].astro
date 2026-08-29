@@ -1,0 +1,140 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/ingredientes.json';
+
+export function getStaticPaths() {
+  return data.ingredientes.map((i) => ({ params: { slug: i.slug } }));
+}
+
+const { slug } = Astro.params;
+const ingrediente = data.ingredientes.find((i) => i.slug === slug)!;
+
+const tagStyle =
+  ingrediente.tagClass === 'outline'
+    ? 'border:1px solid var(--color-accent);color:var(--color-accent);'
+    : ingrediente.tagClass === 'accent2'
+      ? 'background:var(--color-accent2-100);color:var(--color-accent2-800);'
+      : 'background:var(--color-accent-100);color:var(--color-accent-800);';
+
+const title = `${ingrediente.nombre} — Ingrediente — Bellezaypiel`;
+const description = ingrediente.descripcionCorta;
+---
+
+<Layout title={title} description={description}>
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header active="ingredientes" />
+
+    <div style="position:relative;padding:52px 56px 0;overflow:hidden;max-width:1280px;margin:0 auto;">
+      <div style="position:absolute;right:-90px;top:-120px;width:300px;height:300px;border-radius:50%;background:var(--color-accent-100);opacity:.6;"></div>
+      <div style="position:relative;display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;flex-wrap:wrap;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a>
+        <span>/</span>
+        <a href="/ingredientes/" style="color:var(--color-neutral-700);">Ingredientes</a>
+        <span>/</span>
+        <span style="font-weight:600;color:var(--color-text);">{ingrediente.nombre}</span>
+      </div>
+      <div style="position:relative;display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap;">
+        <span style="width:72px;height:72px;border-radius:50%;background:var(--color-accent-200);display:grid;place-content:center;font-family:var(--font-heading);font-size:24px;color:var(--color-accent-800);flex:none;">{ingrediente.abreviatura}</span>
+        <div>
+          <h1 style="font-family:var(--font-heading);font-size:52px;line-height:1.08;letter-spacing:-.028em;margin:0;max-width:20ch;">{ingrediente.nombre}</h1>
+          <p style="font-size:17px;line-height:1.7;color:#3a3733;margin:16px 0 0;max-width:58ch;">{ingrediente.descripcionCorta}</p>
+        </div>
+      </div>
+      <div style="position:relative;margin-top:22px;display:flex;gap:12px;align-items:center;flex-wrap:wrap;">
+        <span style={`display:inline-flex;align-items:center;font-size:12px;letter-spacing:.02em;padding:5px 12px;border-radius:calc(var(--radius-md)*.75);${tagStyle}`}>{ingrediente.evidencia}</span>
+        <span style="font-size:13.5px;color:var(--color-neutral-700);">Revisada en <strong style="font-weight:600;color:var(--color-text);">{ingrediente.revisado}</strong></span>
+      </div>
+    </div>
+
+    <div style="padding:52px 56px 0;max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1fr 380px;gap:48px;">
+      <div style="display:flex;flex-direction:column;gap:28px;">
+        <section style="background:var(--color-neutral-100);border-radius:28px;padding:34px;">
+          <h2 style="font-family:var(--font-heading);font-size:25px;margin:0 0 14px;">Qué es</h2>
+          <p style="font-size:16px;line-height:1.75;color:#3a3733;margin:0;">{ingrediente.queEs}</p>
+        </section>
+
+        <section style="background:var(--color-neutral-100);border-radius:28px;padding:34px;">
+          <h2 style="font-family:var(--font-heading);font-size:25px;margin:0 0 18px;">Cómo usarlo</h2>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+            <div>
+              <h3 style="font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--color-neutral-600);margin:0 0 8px;">Concentración</h3>
+              <p style="font-size:15.5px;line-height:1.65;color:#3a3733;margin:0;">{ingrediente.concentracion}</p>
+            </div>
+            <div>
+              <h3 style="font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--color-neutral-600);margin:0 0 8px;">Frecuencia</h3>
+              <p style="font-size:15.5px;line-height:1.65;color:#3a3733;margin:0;">{ingrediente.frecuencia}</p>
+            </div>
+          </div>
+        </section>
+
+        <section style="background:var(--color-neutral-100);border-radius:28px;padding:34px;">
+          <h2 style="font-family:var(--font-heading);font-size:25px;margin:0 0 18px;">Combinaciones</h2>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;">
+            <div>
+              <h3 style="font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--color-accent2-700);margin:0 0 12px;">Se lleva bien con</h3>
+              <ul style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:8px;font-size:15px;color:#3a3733;">
+                {ingrediente.combinarCon.map(item => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <h3 style="font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--color-accent-700);margin:0 0 12px;">Mejor no mezclar con</h3>
+              <ul style="margin:0;padding-left:18px;display:flex;flex-direction:column;gap:8px;font-size:15px;color:#3a3733;">
+                {ingrediente.evitarCon.map(item => (
+                  <li>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section style="background:var(--color-neutral-100);border-radius:28px;padding:34px;">
+          <h2 style="font-family:var(--font-heading);font-size:25px;margin:0 0 14px;">Efectos secundarios y precauciones</h2>
+          <p style="font-size:16px;line-height:1.75;color:#3a3733;margin:0 0 14px;">{ingrediente.efectosSecundarios}</p>
+          {ingrediente.notas && (
+            <p style="font-size:15px;line-height:1.7;color:#4a463f;margin:0;padding-top:14px;border-top:1px solid var(--color-divider);">
+              <strong>Nota:</strong> {ingrediente.notas}
+            </p>
+          )}
+        </section>
+      </div>
+
+      <aside style="display:flex;flex-direction:column;gap:24px;">
+        <div style="background:var(--color-accent-100);border-radius:28px;padding:28px;">
+          <h3 style="font-family:var(--font-heading);font-size:21px;line-height:1.2;margin:0 0 14px;">Resumen rápido</h3>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:14.5px;line-height:1.6;color:#3a3733;">
+            <li style="display:flex;gap:10px;"><span style="flex:none;">•</span><span><strong>Evidencia:</strong> {ingrediente.evidencia.toLowerCase()}</span></li>
+            <li style="display:flex;gap:10px;"><span style="flex:none;">•</span><span><strong>Concentración:</strong> {ingrediente.concentracion}</span></li>
+            <li style="display:flex;gap:10px;"><span style="flex:none;">•</span><span><strong>Frecuencia:</strong> {ingrediente.frecuencia}</span></li>
+            <li style="display:flex;gap:10px;"><span style="flex:none;">•</span><span><strong>Revisado:</strong> {ingrediente.revisado}</span></li>
+          </ul>
+        </div>
+
+        <div style="background:var(--color-neutral-100);border-radius:28px;padding:28px;">
+          <h3 style="font-family:var(--font-heading);font-size:21px;line-height:1.2;margin:0 0 14px;">Explora más</h3>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:15px;">
+            <li><a href="/ingredientes/" style="font-weight:600;color:var(--color-text);">Todas las fichas</a></li>
+            <li><a href="/rutina/" style="font-weight:600;color:var(--color-text);">Armar mi rutina</a></li>
+            <li><a href="/catalogo/" style="font-weight:600;color:var(--color-text);">Catálogo de productos</a></li>
+            <li><a href="/diario/" style="font-weight:600;color:var(--color-text);">Diario</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <div style="padding:70px 56px 64px;max-width:1280px;margin:0 auto;">
+      <div style="background:var(--color-accent-100);border-radius:40px;padding:44px 48px;display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center;">
+        <div>
+          <h3 style="font-family:var(--font-heading);font-size:27px;line-height:1.16;margin:0;">¿No sabes si este ingrediente te toca?</h3>
+          <p style="font-size:15.5px;line-height:1.65;color:#4a463f;margin:14px 0 0;max-width:50ch;">Seis preguntas sobre tu piel y te devolvemos una rutina con las fichas de cada paso.</p>
+        </div>
+        <a href="/rutina/" style="display:inline-flex;align-items:center;gap:6px;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:15px;padding:14px 28px;border-radius:999px;text-decoration:none;">Empezar el test</a>
+      </div>
+    </div>
+
+    <Footer />
+  </div>
+</Layout>
