@@ -1,0 +1,129 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Catálogo de productos — Bellezaypiel">
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header active="productos" />
+    
+    <div style="position:relative;padding:52px 56px 0;overflow:hidden;max-width:1280px;margin:0 auto;">
+      <div style="position:absolute;right:-110px;top:-150px;width:340px;height:340px;border-radius:50%;background:var(--color-accent2-200);"></div>
+      <div style="position:relative;display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a><span>/</span><span style="font-weight:600;color:var(--color-text);">Productos</span>
+      </div>
+      <h1 style="position:relative;font-family:var(--font-heading);font-size:52px;line-height:1.08;letter-spacing:-.028em;margin:0;max-width:22ch;">Todo lo que hemos probado</h1>
+      <p style="position:relative;font-size:17px;line-height:1.7;color:#3a3733;margin:22px 0 0;max-width:58ch;">86 productos con ocho semanas de uso real cada uno, ordenados por lo que la evidencia sostiene y no por lo que paga mejor. Los que no pasaron el corte también están: filtra por veredicto para verlos.</p>
+    </div>
+    
+    <div style="padding:52px 56px 0;max-width:1280px;margin:0 auto;">
+      <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:26px;">
+        <h2 style="font-family:var(--font-heading);font-size:30px;letter-spacing:-.02em;margin:0;">Categorías</h2>
+        <a href="#" style="font-size:14.5px;font-weight:600;">Ver las 9 categorías</a>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:18px;">
+        {[
+          { name: 'Sérums', count: '18 productos', bg: 'var(--color-accent-200)' },
+          { name: 'Limpiadores', count: '14 productos', bg: 'var(--color-neutral-200)' },
+          { name: 'Hidratantes', count: '21 productos', bg: 'var(--color-accent2-200)' },
+          { name: 'Solares', count: '11 productos', bg: 'var(--color-accent2-300)' },
+          { name: 'Retinoides', count: '9 productos', bg: 'var(--color-accent-200)' },
+          { name: 'Exfoliantes', count: '13 productos', bg: 'var(--color-neutral-300)' },
+        ].map((cat, i) => (
+          <a href="#" style={`display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center;background:${i === 0 ? 'var(--color-accent-100)' : 'var(--color-neutral-100)'};border-radius:26px;padding:24px 16px;color:var(--color-text);text-decoration:none;`}>
+            <span style={`width:56px;height:56px;border-radius:50%;background:${cat.bg};`}></span>
+            <strong style="font-family:var(--font-heading);font-weight:400;font-size:17px;line-height:1.2;">{cat.name}</strong>
+            <span style="font-size:13px;color:var(--color-neutral-700);">{cat.count}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+    
+    <div style="display:grid;grid-template-columns:250px 1fr;gap:48px;padding:48px 56px 0;max-width:1280px;margin:0 auto;">
+      <aside style="display:flex;flex-direction:column;gap:28px;">
+        <div>
+          <span style="display:block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--color-neutral-700);margin-bottom:14px;">Tipo</span>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <span style="display:inline-flex;align-items:center;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:13.5px;padding:8px 15px;border-radius:999px;">Sérums</span>
+            <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:13.5px;padding:8px 15px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Limpiadores</a>
+            <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:13.5px;padding:8px 15px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Hidratantes</a>
+            <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:13.5px;padding:8px 15px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Solares</a>
+            <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:13.5px;padding:8px 15px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Retinoides</a>
+          </div>
+        </div>
+        <div>
+          <span style="display:block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--color-neutral-700);margin-bottom:14px;">Tipo de piel</span>
+          <div style="display:flex;flex-direction:column;gap:12px;">
+            <label style="display:flex;gap:12px;align-items:center;font-size:15px;cursor:pointer;"><span style="width:20px;height:20px;border-radius:50%;border:2px solid var(--color-accent2-600);display:grid;place-content:center;flex:none;"><span style="width:9px;height:9px;border-radius:50%;background:var(--color-accent2-600);"></span></span>Mixta</label>
+            <label style="display:flex;gap:12px;align-items:center;font-size:15px;cursor:pointer;"><span style="width:20px;height:20px;border-radius:50%;border:2px solid var(--color-neutral-400);flex:none;"></span>Seca</label>
+            <label style="display:flex;gap:12px;align-items:center;font-size:15px;cursor:pointer;"><span style="width:20px;height:20px;border-radius:50%;border:2px solid var(--color-neutral-400);flex:none;"></span>Oleosa</label>
+            <label style="display:flex;gap:12px;align-items:center;font-size:15px;cursor:pointer;"><span style="width:20px;height:20px;border-radius:50%;border:2px solid var(--color-neutral-400);flex:none;"></span>Reactiva o rosácea</label>
+          </div>
+        </div>
+        <div>
+          <span style="display:block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--color-neutral-700);margin-bottom:14px;">Nivel de evidencia</span>
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <label style="display:flex;gap:12px;align-items:center;font-size:15px;cursor:pointer;"><span style="width:20px;height:20px;border-radius:50%;border:2px solid var(--color-neutral-400);flex:none;"></span>Alta<span style="margin-left:auto;font-size:13px;color:var(--color-neutral-600);">34</span></label>
+            <label style="display:flex;gap:12px;align-items:center;font-size:15px;cursor:pointer;"><span style="width:20px;height:20px;border-radius:50%;border:2px solid var(--color-neutral-400);flex:none;"></span>Media<span style="margin-left:auto;font-size:13px;color:var(--color-neutral-600);">39</span></label>
+            <label style="display:flex;gap:12px;align-items:center;font-size:15px;cursor:pointer;"><span style="width:20px;height:20px;border-radius:50%;border:2px solid var(--color-neutral-400);flex:none;"></span>Limitada<span style="margin-left:auto;font-size:13px;color:var(--color-neutral-600);">13</span></label>
+          </div>
+        </div>
+        <div style="background:var(--color-accent2-100);border-radius:26px;padding:24px;">
+          <h3 style="font-family:var(--font-heading);font-size:19px;line-height:1.2;margin:0 0 10px;">Comparador</h3>
+          <p style="font-size:14px;line-height:1.6;color:var(--color-accent2-800);margin:0 0 14px;">Marca hasta cuatro productos y los ponemos lado a lado: activos, concentración y precio por ml.</p>
+          <a href="#" style="display:inline-flex;align-items:center;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:13.5px;padding:9px 18px;border-radius:999px;text-decoration:none;">Comparar (2)</a>
+        </div>
+      </aside>
+      
+      <div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding-bottom:22px;border-bottom:1px solid var(--color-divider);">
+          <span style="font-size:14.5px;color:var(--color-neutral-700);"><strong style="font-weight:600;color:var(--color-text);">18 sérums</strong> para piel mixta</span>
+          <span style="font-size:14px;color:var(--color-neutral-700);">Orden: <strong style="font-weight:600;color:var(--color-text);">evidencia primero</strong> · <a href="#">precio</a> · <a href="#">novedad</a></span>
+        </div>
+        
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:26px;padding-top:28px;">
+          {[
+            { title: 'Sérum de niacinamida 5% + zinc', desc: 'Brillo y barrera. El mejor precio por ml del catálogo.', price: '18 €', size: '30 ml', tags: ['Evidencia alta', 'Nuestra elección'] },
+            { title: 'Retinaldehído 0,05%', desc: 'Para quien el retinol irrita. Introducción lenta, resultados a las 12 semanas.', price: '34 €', size: '15 ml', tags: ['Evidencia alta'] },
+            { title: 'Sérum de vitamina C (THD)', desc: 'Estable y sin picor. Menos potente que el ácido ascórbico puro.', price: '29 €', size: '30 ml', tags: ['Evidencia media'] },
+            { title: 'Sérum de azelaico 10%', desc: 'Rojez y brotes con marca. Textura densa que tarda en absorber.', price: '19 €', size: '30 ml', tags: ['Evidencia alta'] },
+            { title: 'Sérum de bakuchiol 1%', desc: 'Agradable de usar. No sustituye a un retinoide, aunque lo diga la caja.', price: '26 €', size: '30 ml', tags: ['Evidencia limitada'] },
+            { title: 'Sérum de ácido hialurónico', desc: 'Cómodo en climas húmedos. Necesita una crema encima para servir de algo.', price: '12 €', size: '30 ml', tags: ['Evidencia media', 'Precio justo'] },
+          ].map(prod => (
+            <a href="/producto/" style="display:flex;flex-direction:column;gap:14px;color:var(--color-text);text-decoration:none;">
+              <figure class="washed" style="margin:0;border-radius:26px;overflow:hidden;background:var(--color-surface);aspect-ratio:4/5;display:grid;place-content:center;"><span style="font-size:11px;color:var(--color-neutral-600);">Producto</span></figure>
+              <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap;">
+                {prod.tags.map((tag, i) => (
+                  <span style={`display:inline-flex;align-items:center;font-size:11px;letter-spacing:.02em;padding:3px 10px;border-radius:calc(var(--radius-md)*.75);${i === 0 && tag === 'Evidencia alta' ? 'background:var(--color-accent2-100);color:var(--color-accent2-800);' : i === 0 && tag === 'Evidencia media' ? 'background:var(--color-accent-100);color:var(--color-accent-800);' : i === 0 && tag === 'Evidencia limitada' ? 'border:1px solid var(--color-accent);color:var(--color-accent);' : 'background:var(--color-neutral-100);color:var(--color-neutral-800);'}`}>{tag}</span>
+                ))}
+              </div>
+              <div>
+                <strong style="display:block;font-family:var(--font-heading);font-weight:400;font-size:20px;line-height:1.2;">{prod.title}</strong>
+                <span style="display:block;font-size:14.5px;line-height:1.55;color:#4a463f;margin-top:6px;">{prod.desc}</span>
+              </div>
+              <span style="font-size:15px;font-weight:600;">{prod.price} <span style="font-weight:400;color:var(--color-neutral-700);">· {prod.size}</span></span>
+            </a>
+          ))}
+        </div>
+        
+        <div style="display:flex;justify-content:center;align-items:center;gap:14px;padding:44px 0 0;">
+          <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:14.5px;padding:11px 26px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Ver 12 sérums más</a>
+          <span style="font-size:13.5px;color:var(--color-neutral-700);">6 de 18</span>
+        </div>
+      </div>
+    </div>
+    
+    <div style="padding:72px 56px 64px;max-width:1280px;margin:0 auto;">
+      <div style="background:var(--color-accent-100);border-radius:40px;padding:44px 48px;display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center;">
+        <div>
+          <h3 style="font-family:var(--font-heading);font-size:27px;line-height:1.16;margin:0;">Cómo puntuamos cada producto</h3>
+          <p style="font-size:15.5px;line-height:1.65;color:#4a463f;margin:14px 0 0;max-width:54ch;">Ocho semanas de uso, la fórmula leída ingrediente a ingrediente y los estudios que respaldan cada activo. Compramos lo que probamos.</p>
+        </div>
+        <a href="/metodologia/" style="display:inline-flex;align-items:center;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:15px;padding:14px 28px;border-radius:999px;text-decoration:none;">Leer la metodología</a>
+      </div>
+    </div>
+    
+    <Footer />
+  </div>
+</Layout>

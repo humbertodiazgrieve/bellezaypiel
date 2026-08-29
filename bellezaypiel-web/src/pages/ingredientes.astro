@@ -1,0 +1,97 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Fichas de ingrediente — Bellezaypiel">
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header active="ingredientes" />
+    
+    <div style="position:relative;padding:52px 56px 0;overflow:hidden;max-width:1280px;margin:0 auto;">
+      <div style="position:absolute;right:-90px;top:-120px;width:300px;height:300px;border-radius:50%;background:var(--color-accent-100);"></div>
+      <div style="position:relative;display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a><span>/</span><span style="font-weight:600;color:var(--color-text);">Ingredientes</span>
+      </div>
+      <h1 style="position:relative;font-family:var(--font-heading);font-size:52px;line-height:1.08;letter-spacing:-.028em;margin:0;max-width:20ch;">Fichas de ingrediente</h1>
+      <p style="position:relative;font-size:17px;line-height:1.7;color:#3a3733;margin:22px 0 0;max-width:58ch;">31 moléculas con su nivel de evidencia, la concentración que tiene sentido, con qué se lleva mal y qué esperar de verdad en piel. Las actualizamos cuando aparece algo nuevo, y decimos la fecha.</p>
+    </div>
+    
+    <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;padding:40px 56px 0;max-width:1280px;margin:0 auto;">
+      <span style="display:inline-flex;align-items:center;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:14px;padding:9px 18px;border-radius:999px;">Todos · 31</span>
+      <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:14px;padding:9px 18px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Activos</a>
+      <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:14px;padding:9px 18px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Hidratantes</a>
+      <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:14px;padding:9px 18px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Exfoliantes</a>
+      <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:14px;padding:9px 18px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Filtros solares</a>
+      <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:14px;padding:9px 18px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Calmantes</a>
+      <span style="margin-left:auto;font-size:14px;color:var(--color-neutral-700);">Orden: <strong style="font-weight:600;color:var(--color-text);">evidencia primero</strong></span>
+    </div>
+    
+    <div style="padding:34px 56px 0;max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;">
+      {[
+        { abbr: 'Nia', tag: 'Evidencia alta', tagClass: 'accent2', title: 'Niacinamida', desc: 'Sebo, tono y barrera. El rango útil vive entre el 2% y el 5%; más arriba solo sube el riesgo de rojez.', date: 'junio 2026' },
+        { abbr: 'Ret', tag: 'Evidencia alta', tagClass: 'accent2', title: 'Retinoides tópicos', desc: 'El activo antiedad mejor documentado. La diferencia entre resultado e irritación es casi siempre la frecuencia.', date: 'julio 2026', bg: 'var(--color-accent2-200)', color: 'var(--color-accent2-800)' },
+        { abbr: 'AzA', tag: 'Evidencia media', tagClass: 'accent', title: 'Ácido azelaico', desc: 'Rosácea y acné con manchas. Tolerable en embarazo, lento en resultados y muy poco glamuroso.', date: 'mayo 2026' },
+        { abbr: 'Cer', tag: 'Evidencia alta', tagClass: 'accent2', title: 'Ceramidas', desc: 'Reponen lo que la barrera pierde. Funcionan mejor acompañadas de colesterol y ácidos grasos que solas.', date: 'abril 2026', bg: 'var(--color-accent-100)', color: 'var(--color-accent-800)' },
+        { abbr: 'Vit', tag: 'Evidencia media', tagClass: 'accent', title: 'Vitamina C', desc: 'Tres formas con comportamientos distintos. La estabilidad manda más que el porcentaje del envase.', date: 'junio 2026', bg: 'var(--color-accent2-300)', color: 'var(--color-accent2-900)' },
+        { abbr: 'Bak', tag: 'Evidencia limitada', tagClass: 'outline', title: 'Bakuchiol', desc: 'Se vende como retinol suave. Los estudios son pocos y pequeños; útil si el retinol no se tolera.', date: 'marzo 2026' },
+      ].map(item => (
+        <a href={`/ingredientes/${item.title.toLowerCase().replace(/ /g, '-')}/`} style={`background:var(--color-neutral-100);border-radius:26px;padding:26px;display:flex;flex-direction:column;gap:14px;color:var(--color-text);text-decoration:none;`}>
+          <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+            <span style={`width:52px;height:52px;border-radius:50%;background:${item.bg || 'var(--color-accent-200)'};display:grid;place-content:center;font-family:var(--font-heading);font-size:19px;color:${item.color || 'var(--color-accent-800)'};`}>{item.abbr}</span>
+            <span style={`display:inline-flex;align-items:center;font-size:11px;letter-spacing:.02em;padding:3px 10px;border-radius:calc(var(--radius-md)*.75);${item.tagClass === 'outline' ? 'border:1px solid var(--color-accent);color:var(--color-accent);' : item.tagClass === 'accent2' ? 'background:var(--color-accent2-100);color:var(--color-accent2-800);' : 'background:var(--color-accent-100);color:var(--color-accent-800);'}align-self:flex-start;`}>{item.tag}</span>
+          </div>
+          <h3 style="font-family:var(--font-heading);font-size:23px;margin:0;">{item.title}</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:#4a463f;margin:0;">{item.desc}</p>
+          <span style="font-size:12.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:auto;">Revisada en {item.date}</span>
+        </a>
+      ))}
+    </div>
+    
+    <div style="padding:44px 56px 0;max-width:1280px;margin:0 auto;display:flex;justify-content:center;gap:10px;align-items:center;">
+      <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:14.5px;padding:11px 26px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Cargar 6 fichas más</a>
+      <span style="font-size:13.5px;color:var(--color-neutral-700);margin-left:10px;">6 de 31</span>
+    </div>
+    
+    <!-- FAQ + Info -->
+    <div style="display:grid;grid-template-columns:1fr 420px;gap:64px;padding:80px 56px 0;max-width:1280px;margin:0 auto;">
+      <div style="max-width:64ch;">
+        <h2 style="font-family:var(--font-heading);font-size:31px;line-height:1.16;letter-spacing:-.02em;margin:0 0 20px;">Cómo leer una ficha de ingrediente</h2>
+        <p style="font-size:16.5px;line-height:1.75;color:#3a3733;margin:0 0 20px;">Cada ficha empieza por el nivel de evidencia, porque es lo que decide si merece la pena seguir leyendo. Alta significa que hay ensayos controlados en humanos con resultados repetidos por equipos distintos. Media significa que hay estudios, pero pequeños, cortos o financiados por quien vende. Limitada significa que la molécula funciona en laboratorio y todavía no ha demostrado nada sobre una cara real.</p>
+        <p style="font-size:16.5px;line-height:1.75;color:#3a3733;margin:0 0 20px;">Después viene el rango de concentración con respaldo, que casi nunca es el más alto del mercado. Subir el porcentaje suele aumentar la irritación mucho antes que el beneficio, y por eso indicamos también la frecuencia con la que conviene empezar.</p>
+        <p style="font-size:16.5px;line-height:1.75;color:#3a3733;margin:0;">Nada de lo que leas aquí sustituye una consulta. Si tienes una lesión que sangra, cambia de forma o no cierra, o si llevas seis semanas sin mejoría, la siguiente parada es dermatología y no otra estantería.</p>
+      </div>
+      <div>
+        <h2 style="font-family:var(--font-heading);font-size:31px;line-height:1.16;letter-spacing:-.02em;margin:0 0 22px;">Preguntas frecuentes</h2>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="background:var(--color-neutral-100);border-radius:24px;padding:24px 26px;">
+            <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between;">
+              <strong style="font-family:var(--font-heading);font-weight:400;font-size:19px;line-height:1.25;">¿Cuántos activos puedo usar a la vez?</strong>
+              <span style="font-family:var(--font-heading);font-size:20px;color:var(--color-accent);flex:none;">–</span>
+            </div>
+            <p style="font-size:15px;line-height:1.7;color:#4a463f;margin:14px 0 0;">Dos como máximo, y en momentos distintos del día. Cada activo nuevo entra solo, con una semana de margen, para saber a quién culpar si algo escuece.</p>
+          </div>
+          {['¿La concentración alta funciona mejor?', '¿Cuánto tardo en ver resultados?', '¿Necesito protector solar si uso ácidos?', '¿Qué hago si algo me irrita?', '¿Hay ingredientes seguros en embarazo?'].map(q => (
+            <div style="background:var(--color-neutral-100);border-radius:24px;padding:22px 26px;display:flex;gap:16px;align-items:center;justify-content:space-between;">
+              <strong style="font-family:var(--font-heading);font-weight:400;font-size:19px;line-height:1.25;">{q}</strong>
+              <span style="font-family:var(--font-heading);font-size:20px;color:var(--color-accent);flex:none;">+</span>
+            </div>
+          ))}
+        </div>
+        <p style="font-size:14.5px;line-height:1.65;color:var(--color-neutral-700);margin:22px 0 0;">¿Falta la tuya? <a href="/contacto/" style="font-weight:600;">Escríbenos</a> y la respondemos en el diario.</p>
+      </div>
+    </div>
+    
+    <div style="padding:70px 56px 64px;max-width:1280px;margin:0 auto;">
+      <div style="background:var(--color-accent-100);border-radius:40px;padding:44px 48px;display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center;">
+        <div>
+          <h3 style="font-family:var(--font-heading);font-size:27px;line-height:1.16;margin:0;">¿No sabes qué ingrediente te toca?</h3>
+          <p style="font-size:15.5px;line-height:1.65;color:#4a463f;margin:14px 0 0;max-width:50ch;">Seis preguntas sobre tu piel y te devolvemos una rutina con las fichas de cada paso.</p>
+        </div>
+        <a href="/rutina/" style="display:inline-flex;align-items:center;gap:6px;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:15px;padding:14px 28px;border-radius:999px;text-decoration:none;">Empezar el test</a>
+      </div>
+    </div>
+    
+    <Footer />
+  </div>
+</Layout>

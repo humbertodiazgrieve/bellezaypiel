@@ -1,0 +1,82 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Diario — Bellezaypiel">
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header active="diario" />
+    
+    <div style="padding:52px 56px 0;max-width:1280px;margin:0 auto;">
+      <h1 style="font-family:var(--font-heading);font-size:50px;line-height:1.08;letter-spacing:-.028em;margin:0;">Diario</h1>
+      <p style="font-size:17px;line-height:1.7;color:#3a3733;margin:20px 0 0;max-width:56ch;">Lecturas largas, correcciones de lo que dijimos mal y notas de lo que estamos probando. Publicamos dos veces por semana, sin calendario forzado.</p>
+    </div>
+    
+    <div style="display:grid;grid-template-columns:7fr 5fr;gap:48px;align-items:center;padding:48px 56px 0;max-width:1280px;margin:0 auto;">
+      <figure class="washed" style="margin:0;border-radius:36px;overflow:hidden;background:var(--color-surface);aspect-ratio:16/10;display:grid;place-content:center;"><span style="font-size:14px;color:var(--color-neutral-600);">Imagen destacada del artículo</span></figure>
+      <div>
+        <span style="display:inline-flex;align-items:center;font-size:11px;letter-spacing:.02em;padding:3px 10px;border-radius:calc(var(--radius-md)*.75);background:var(--color-accent-100);color:var(--color-accent-800);margin-bottom:16px;">Destacado · Barrera</span>
+        <h2 style="font-family:var(--font-heading);font-size:36px;line-height:1.12;letter-spacing:-.022em;margin:0;"><a href="/diario/cuando-la-piel-no-esta-seca/" style="color:var(--color-text);text-decoration:none;">Cuando la piel no está seca, está agrietada</a></h2>
+        <p style="font-size:16.5px;line-height:1.7;color:#3a3733;margin:18px 0 0;max-width:44ch;">Deshidratación y daño de barrera se sienten igual y se arreglan distinto. Cómo leer los síntomas antes de comprar el sexto humectante del año.</p>
+        <span style="display:block;font-size:13.5px;color:var(--color-neutral-700);margin-top:20px;">14 de agosto · 9 min · Revisado por dermatología</span>
+      </div>
+    </div>
+    
+    <div style="display:grid;grid-template-columns:1fr 300px;gap:56px;padding:72px 56px 0;max-width:1280px;margin:0 auto;">
+      <div>
+        <div style="display:flex;gap:10px;margin-bottom:8px;flex-wrap:wrap;">
+          <span style="display:inline-flex;align-items:center;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:13.5px;padding:8px 16px;border-radius:999px;">Todo</span>
+          <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:13.5px;padding:8px 16px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Activos</a>
+          <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:13.5px;padding:8px 16px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Rutinas</a>
+          <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:13.5px;padding:8px 16px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Mitos</a>
+          <a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:13.5px;padding:8px 16px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Correcciones</a>
+        </div>
+        
+        {[
+          { cat: 'Activos', title: 'Vitamina C: qué forma comprar y cuál olvidar', desc: 'Ácido ascórbico, ascorbil glucósido y THD comparados por estabilidad, penetración y lo que puedes esperar en ocho semanas.', date: '11 de agosto · 12 min' },
+          { cat: 'Correcciones', title: 'Nos equivocamos con el orden de los ácidos', desc: 'Publicamos una recomendación basada en un solo estudio. Apareció una revisión mejor y toca rectificar en público.', date: '7 de agosto · 5 min' },
+          { cat: 'Mitos', title: 'El colágeno bebible y la piel: qué llega y qué no', desc: 'Hay estudios, hay financiación de marca y hay una diferencia enorme entre significativo y perceptible.', date: '3 de agosto · 8 min' },
+          { cat: 'Rutinas', title: 'La rutina de tres pasos que casi nadie necesita ampliar', desc: 'Limpiar, hidratar, proteger. Cada paso extra entra por una razón concreta, y aquí están las razones válidas.', date: '29 de julio · 7 min' },
+        ].map((post, i) => (
+          <a href={`/diario/${post.title.toLowerCase().replace(/[:¿?]/g, '').replace(/ /g, '-').replace(/--+/g, '-')}/`} style="display:grid;grid-template-columns:120px 1fr;gap:24px;align-items:center;padding:26px 0;border-bottom:1px solid var(--color-divider);color:var(--color-text);text-decoration:none;">
+            <figure class="washed" style="margin:0;border-radius:18px;overflow:hidden;background:var(--color-surface);width:120px;height:96px;display:grid;place-content:center;"><span style="font-size:10px;color:var(--color-neutral-600);">Foto</span></figure>
+            <div>
+              <span style="font-size:12.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--color-accent-700);">{post.cat}</span>
+              <h3 style="font-family:var(--font-heading);font-size:24px;line-height:1.2;margin:6px 0 8px;">{post.title}</h3>
+              <p style="font-size:14.5px;line-height:1.6;color:#4a463f;margin:0 0 8px;max-width:60ch;">{post.desc}</p>
+              <span style="font-size:13px;color:var(--color-neutral-700);">{post.date}</span>
+            </div>
+          </a>
+        ))}
+        
+        <div style="padding:34px 0 0;"><a href="#" style="display:inline-flex;align-items:center;background:transparent;color:var(--color-text);font-family:var(--font-heading);font-size:14.5px;padding:11px 26px;border-radius:999px;text-decoration:none;border:1px solid var(--color-divider);">Entradas anteriores</a></div>
+      </div>
+      
+      <aside style="display:flex;flex-direction:column;gap:20px;">
+        <div style="background:var(--color-accent2-100);border-radius:28px;padding:28px;">
+          <h3 style="font-family:var(--font-heading);font-size:20px;line-height:1.2;margin:0 0 10px;">Estudios del mes</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:var(--color-accent2-800);margin:0 0 16px;">Cinco publicaciones nuevas, resumidas en un párrafo cada una.</p>
+          <a href="/estudios/" style="display:inline-flex;align-items:center;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:14px;padding:10px 20px;border-radius:999px;text-decoration:none;">Leer el resumen</a>
+        </div>
+        <div style="background:var(--color-neutral-100);border-radius:28px;padding:28px;">
+          <h3 style="font-family:var(--font-heading);font-size:20px;margin:0 0 14px;">Lo más leído</h3>
+          <div style="display:flex;flex-direction:column;gap:14px;">
+            <a href="/diario/" style="font-size:14.5px;line-height:1.5;color:var(--color-text);">Cómo introducir retinol sin descamarte</a>
+            <a href="/diario/" style="font-size:14.5px;line-height:1.5;color:var(--color-text);">SPF en interior: cuándo importa de verdad</a>
+            <a href="/diario/" style="font-size:14.5px;line-height:1.5;color:var(--color-text);">Doble limpieza, ¿para quién?</a>
+            <a href="/diario/" style="font-size:14.5px;line-height:1.5;color:var(--color-text);">Leer un INCI en treinta segundos</a>
+          </div>
+        </div>
+        <div style="background:var(--color-accent-100);border-radius:28px;padding:28px;">
+          <h3 style="font-family:var(--font-heading);font-size:20px;line-height:1.2;margin:0 0 10px;">Nuestra metodología</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:#4a463f;margin:0 0 14px;">Cómo clasificamos la evidencia y qué hacemos cuando un estudio nos contradice.</p>
+          <a href="/metodologia/" style="font-size:14.5px;font-weight:600;">Cómo trabajamos</a>
+        </div>
+      </aside>
+    </div>
+    <div style="height:64px;"></div>
+    
+    <Footer />
+  </div>
+</Layout>
