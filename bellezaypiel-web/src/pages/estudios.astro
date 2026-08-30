@@ -1,0 +1,39 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Estudios — Bellezaypiel" description="Resúmenes de las publicaciones recientes sobre ingredientes, barrera cutánea y fotoprotección.">
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header active="estudios" />
+
+    <div style="position:relative;padding:52px 56px 0;overflow:hidden;max-width:1280px;margin:0 auto;">
+      <div style="position:absolute;right:-90px;top:-120px;width:300px;height:300px;border-radius:50%;background:var(--color-accent2-200);opacity:.7;"></div>
+      <div style="position:relative;display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a><span>/</span><span style="font-weight:600;color:var(--color-text);">Estudios</span>
+      </div>
+      <h1 style="position:relative;font-family:var(--font-heading);font-size:52px;line-height:1.08;letter-spacing:-.028em;margin:0;max-width:20ch;">Estudios</h1>
+      <p style="position:relative;font-size:17px;line-height:1.7;color:#3a3733;margin:22px 0 0;max-width:58ch;">Cada mes leemos las publicaciones nuevas sobre dermatología cosmética y resumimos lo que cambia una rutina real. Si un estudio es pequeño, corto o está financiado por quien vende, lo decimos en la primera línea.</p>
+    </div>
+
+    <div style="padding:48px 56px 64px;max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:2px;max-width:900px;">
+      {[
+        { tag: 'Revisión · 9 ensayos', title: 'Retinaldehído frente a retinol', desc: 'Eficacia comparable a 12 semanas con menos irritación declarada, siempre que la frecuencia suba de forma gradual. La diferencia real está en la adherencia: quien se irrita menos, no abandona.', meta: '2024 · 4 min' },
+        { tag: 'Ensayo clínico', title: 'Niacinamida al 4% y función barrera', desc: 'Mejora medible de la pérdida transepidérmica de agua en piel seca. Por encima del 5% el beneficio se aplana y solo sube la probabilidad de rojez.', meta: '2025 · 6 min' },
+        { tag: 'Evidencia preliminar', title: 'Filtros minerales y microbioma cutáneo', desc: 'Resultados in vitro prometedores, muestras pequeñas y ninguna réplica todavía. Lo seguimos, no lo recomendamos todavía.', meta: '2025 · 5 min' },
+        { tag: 'Metaanálisis', title: 'Colágeno oral y elasticidad', desc: 'Mejorías pequeñas pero significativas en elasticidad e hidratación. El problema: la mayoría de ensayos los financia quien vende el suplemento. Lectura con pinza.', meta: '2024 · 7 min' },
+        { tag: 'Ensayo clínico', title: 'Ácido azelaico al 10% en rosácea papulopustulosa', desc: 'Reducción de lesiones comparable a opciones de prescripción en casos leves, con mejor perfil de tolerancia. Lento pero constante.', meta: '2025 · 6 min' },
+      ].map((est) => (
+        <article style="padding:30px 0;border-bottom:1px solid var(--color-divider);">
+          <span style="display:inline-flex;align-items:center;font-size:11px;letter-spacing:.02em;padding:3px 10px;border-radius:calc(var(--radius-md)*.75);background:var(--color-accent-100);color:var(--color-accent-800);">{est.tag}</span>
+          <h2 style="font-family:var(--font-heading);font-size:27px;line-height:1.2;margin:12px 0 10px;">{est.title}</h2>
+          <p style="font-size:16px;line-height:1.7;color:#3a3733;margin:0 0 10px;max-width:62ch;">{est.desc}</p>
+          <span style="font-size:13px;color:var(--color-neutral-700);">Publicado en {est.meta}</span>
+        </article>
+      ))}
+    </div>
+
+    <Footer />
+  </div>
+</Layout>

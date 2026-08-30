@@ -1,0 +1,56 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import data from '../../data/productos-categorias.json';
+
+export function getStaticPaths() {
+  return data.categorias.map((c) => ({ params: { slug: c.slug } }));
+}
+
+const { slug } = Astro.params;
+const cat = data.categorias.find((c) => c.slug === slug)!;
+const otras = data.categorias.filter((c) => c.slug !== slug).slice(0, 4);
+---
+
+<Layout title={`${cat.nombre} — Productos — Bellezaypiel`} description={cat.descripcion}>
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header active="productos" />
+
+    <div style="position:relative;padding:52px 56px 0;overflow:hidden;max-width:1280px;margin:0 auto;">
+      <div style="position:absolute;right:-90px;top:-120px;width:300px;height:300px;border-radius:50%;background:var(--color-accent-100);opacity:.6;"></div>
+      <div style="position:relative;display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;flex-wrap:wrap;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a><span>/</span>
+        <a href="/productos/" style="color:var(--color-neutral-700);">Productos</a><span>/</span>
+        <span style="font-weight:600;color:var(--color-text);">{cat.nombre}</span>
+      </div>
+      <h1 style="position:relative;font-family:var(--font-heading);font-size:52px;line-height:1.08;letter-spacing:-.028em;margin:0;max-width:22ch;">{cat.nombre}</h1>
+      <p style="position:relative;font-size:17px;line-height:1.7;color:#3a3733;margin:22px 0 0;max-width:58ch;">{cat.descripcion}</p>
+    </div>
+
+    <div style="padding:52px 56px 0;max-width:1280px;margin:0 auto;">
+      <div style="background:var(--color-neutral-100);border-radius:28px;padding:36px;max-width:72ch;">
+        <h2 style="font-family:var(--font-heading);font-size:24px;margin:0 0 14px;">Cómo revisamos esta categoría</h2>
+        <p style="font-size:16px;line-height:1.75;color:#3a3733;margin:0 0 14px;">
+          Cada producto de esta categoría se prueba durante ocho semanas sobre el tipo de piel para el que dice estar pensado. Leemos la fórmula ingrediente a ingrediente, comprobamos que las concentraciones de los activos caen dentro de los rangos con respaldo y anotamos tolerancia, textura y resultados reales.
+        </p>
+        <p style="font-size:16px;line-height:1.75;color:#3a3733;margin:0;">
+          Estamos publicando las fichas de esta categoría por orden de evidencia. Mientras tanto, puedes revisar las <a href="/ingredientes/" style="font-weight:600;">fichas de ingrediente</a> que suelen protagonizar estas fórmulas o usar el <a href="/rutina/" style="font-weight:600;">test de rutina</a> para saber qué pasos te tocan.
+        </p>
+      </div>
+    </div>
+
+    <div style="padding:52px 56px 64px;max-width:1280px;margin:0 auto;">
+      <h2 style="font-family:var(--font-heading);font-size:28px;letter-spacing:-.02em;margin:0 0 22px;">Otras categorías</h2>
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;">
+        {otras.map((o) => (
+          <a href={`/productos/${o.slug}/`} style="background:var(--color-neutral-100);border-radius:22px;padding:22px;color:var(--color-text);text-decoration:none;">
+            <strong style="font-family:var(--font-heading);font-weight:400;font-size:18px;display:block;">{o.nombre}</strong>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <Footer />
+  </div>
+</Layout>

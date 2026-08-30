@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533">
+<rect width="800" height="533" fill="#f0e6d2"/>
+<circle cx="700" cy="80" r="140" fill="#8a9a6e" opacity="0.14"/>
+<circle cx="60" cy="480" r="110" fill="#a05a2c" opacity="0.12"/>
+<path d="M 400 130 C 480 220 520 280 520 340 C 520 410 466 460 400 460 C 334 460 280 410 280 340 C 280 280 320 220 400 130 Z" fill="#a05a2c" opacity="0.32"/>
+<path d="M 400 180 C 400 300 400 380 400 430" stroke="#8a9a6e" stroke-width="5" opacity="0.6" fill="none"/>
+<text x="400" y="500" font-family="Georgia, serif" font-size="30" fill="#5a4a3a" text-anchor="middle" opacity="0.85">Bolsas en los ojos: retención de l…</text>
+</svg>

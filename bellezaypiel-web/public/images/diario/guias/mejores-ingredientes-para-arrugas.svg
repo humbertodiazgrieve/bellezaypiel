@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533">
+<rect width="800" height="533" fill="#f0e6d2"/>
+<circle cx="700" cy="80" r="140" fill="#8a9a6e" opacity="0.14"/>
+<circle cx="60" cy="480" r="110" fill="#a05a2c" opacity="0.12"/>
+<path d="M 200 340 A 200 200 0 0 1 600 340" fill="#a05a2c" opacity="0.3"/>
+<path d="M 260 340 A 140 140 0 0 1 540 340" fill="#8a9a6e" opacity="0.35"/>
+<line x1="120" y1="340" x2="680" y2="340" stroke="#a05a2c" stroke-width="5" opacity="0.5"/>
+<text x="400" y="500" font-family="Georgia, serif" font-size="30" fill="#5a4a3a" text-anchor="middle" opacity="0.85">Los ingredientes con mejor evidenc…</text>
+</svg>

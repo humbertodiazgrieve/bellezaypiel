@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout title="Privacidad — Bellezaypiel" description="Qué datos recogemos, para qué y qué no hacemos con ellos.">
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header />
+
+    <div style="padding:52px 56px 0;max-width:1280px;margin:0 auto;">
+      <div style="display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a><span>/</span><span style="font-weight:600;color:var(--color-text);">Privacidad</span>
+      </div>
+      <h1 style="font-family:var(--font-heading);font-size:52px;line-height:1.08;letter-spacing:-.028em;margin:0;max-width:20ch;">Privacidad</h1>
+      <p style="font-size:17px;line-height:1.7;color:#3a3733;margin:22px 0 0;max-width:58ch;">Versión corta: recogemos lo mínimo para que la web funcione y el boletín llegue. No vendemos datos, no hacemos perfiles publicitarios y no usamos rastreadores de terceros.</p>
+    </div>
+
+    <div style="padding:52px 56px 64px;max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:36px;">
+      <section>
+        <h2 style="font-family:var(--font-heading);font-size:28px;margin:0 0 12px;">Qué recogemos</h2>
+        <p style="font-size:16.5px;line-height:1.8;color:#3a3733;margin:0 0 12px;"><strong>Boletín:</strong> tu correo electrónico, solo si lo escribes tú en el formulario de suscripción. Se usa exclusivamente para enviarte el resumen mensual. Puedes darte de baja con un clic en cualquier correo.</p>
+        <p style="font-size:16.5px;line-height:1.8;color:#3a3733;margin:0 0 12px;"><strong>Contacto:</strong> nombre, correo y mensaje cuando nos escribes. Se usan solo para responderte.</p>
+        <p style="font-size:16.5px;line-height:1.8;color:#3a3733;margin:0;"><strong>Técnicos:</strong> los registros estándar del servidor que cualquier web genera (dirección IP, navegador, páginas visitadas), necesarios para el funcionamiento y la seguridad del servicio.</p>
+      </section>
+
+      <section>
+        <h2 style="font-family:var(--font-heading);font-size:28px;margin:0 0 12px;">Qué no hacemos</h2>
+        <p style="font-size:16.5px;line-height:1.8;color:#3a3733;margin:0;">No vendemos ni cedemos tus datos. No usamos píxeles publicitarios ni redes de anuncios. No cruzamos tu actividad con otras plataformas. No enviamos correos comerciales de terceros: el boletín es contenido, no publicidad.</p>
+      </section>
+
+      <section>
+        <h2 style="font-family:var(--font-heading);font-size:28px;margin:0 0 12px;">Tus derechos</h2>
+        <p style="font-size:16.5px;line-height:1.8;color:#3a3733;margin:0;">Puedes pedir en cualquier momento acceder a tus datos, rectificarlos o eliminarlos escribiendo desde la página de <a href="/contacto/" style="font-weight:600;">contacto</a>. Respondemos a las solicitudes en un plazo razonable y sin laberintos.</p>
+      </section>
+
+      <section>
+        <h2 style="font-family:var(--font-heading);font-size:28px;margin:0 0 12px;">Cambios en esta página</h2>
+        <p style="font-size:16.5px;line-height:1.8;color:#3a3733;margin:0;">Si alguna vez cambia algo sustancial en cómo tratamos los datos, lo anunciaremos aquí y en el boletín antes de aplicarlo. Última revisión: agosto 2026.</p>
+      </section>
+    </div>
+
+    <Footer />
+  </div>
+</Layout>

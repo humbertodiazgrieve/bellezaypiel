@@ -1,0 +1,558 @@
+{
+  "categorias": [
+    {
+      "slug": "rutinas",
+      "nombre": "Rutinas",
+      "descripcion": "Guías paso a paso de yoga facial y cuidado de la piel, pensadas para distintos momentos del día, niveles de experiencia y objetivos. Siempre con expectativas realistas y basadas en la evidencia disponible.",
+      "articulos": [
+        {
+          "slug": "rutina-yoga-facial-manana",
+          "titulo": "Rutina de yoga facial para la mañana",
+          "excerpt": "Una secuencia breve para despertar el rostro, reducir la sensación de hinchazón matutina y empezar el día con la piel más fresca.",
+          "fecha": "agosto 2026",
+          "lectura": "9 min",
+          "secciones": [
+            {
+              "titulo": "Por qué hacer yoga facial por la mañana",
+              "contenido": "Al despertar es común notar el rostro algo hinchado, sobre todo en párpados y mejillas, porque durante la noche el líquido se redistribuye al estar acostados. Los movimientos suaves y el drenaje linfático manual pueden ayudar a movilizar ese líquido y dar una sensación de frescura. Además, dedicar unos minutos al rostro por la mañana es una forma sencilla de crear un hábito constante, que es lo que más importa a largo plazo."
+            },
+            {
+              "titulo": "Secuencia sugerida paso a paso",
+              "contenido": "Empieza con la piel limpia y las manos también limpias, con unas gotas de aceite o crema para que los dedos se deslicen sin tirar de la piel. Realiza primero movimientos de drenaje: desliza los dedos desde el centro del rostro hacia las orejas y luego baja por el cuello, repitiendo de 5 a 8 veces. Después trabaja la frente alisándola con las yemas de abajo hacia arriba, sigue con círculos suaves en sienes y pómulos, y termina con golpecitos ligeros por todo el rostro para activar la circulación. Todo ello en unos 8-10 minutos."
+            },
+            {
+              "titulo": "Qué resultados esperar (y cuáles no)",
+              "contenido": "El efecto más inmediato y mejor documentado es la reducción temporal de la hinchazón y una sensación de relax y bienestar. La evidencia científica sobre cambios estructurales, como levantar mejillas o borrar arrugas, es limitada y los estudios disponibles son pequeños, así que conviene ser prudente con las promesas. Piensa en el yoga facial como un complemento agradable de tu cuidado, no como un sustituto de tratamientos dermatológicos."
+            },
+            {
+              "titulo": "Precauciones y cuándo consultar",
+              "contenido": "Evita hacer presión fuerte o estirar la piel con brusquedad, porque la fricción repetida puede irritar o incluso favorecer líneas finas en pieles sensibles. Si tienes rosácea, acné activo, heridas o alguna condición dermatológica, consulta antes con un profesional. Y si la hinchazón matutina es muy marcada, aparece de forma repentina o se acompaña de otros síntomas, es conveniente acudir al médico para descartar causas que no son cosméticas."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-yoga-facial-noche",
+          "titulo": "Rutina de yoga facial para la noche",
+          "excerpt": "Movimientos lentos y relajantes para soltar la tensión acumulada en mandíbula, frente y ojos antes de dormir.",
+          "fecha": "agosto 2026",
+          "lectura": "8 min",
+          "secciones": [
+            {
+              "titulo": "El objetivo nocturno: relajar, no activar",
+              "contenido": "A lo largo del día fruncimos el ceño, apretamos la mandíbula y mantenemos expresiones sostenidas frente a pantallas. La rutina de noche busca liberar esa tensión muscular, no tonificar. Hacerlo antes de dormir puede contribuir a una sensación de descanso y, en personas con tensión mandibular, a acostarse con la cara más relajada."
+            },
+            {
+              "titulo": "Secuencia sugerida paso a paso",
+              "contenido": "Con la piel limpia e hidratada, comienza masajeando las sienes con círculos lentos durante un minuto. Sigue con la mandíbula: coloca los nudillos a la altura de los maseteros (los músculos que se tensan al morder) y haz círculos con presión suave, bajando después hacia el cuello. Trabaja el entrecejo alisándolo con los dedos índice y medio, y termina con la frente, deslizando las palmas desde el centro hacia afuera. Mantén una respiración lenta durante todo el proceso, unos 8 minutos en total."
+            },
+            {
+              "titulo": "Qué dice la evidencia",
+              "contenido": "El masaje facial suave tiene evidencia razonable para la relajación muscular y la percepción de bienestar, y algunos estudios pequeños sugieren mejoras temporales en el aspecto de la piel por el aumento del flujo sanguíneo. Lo que no está demostrado es que el yoga facial nocturno prevenga o elimine arrugas de forma duradera. Su mayor valor está en el hábito de autocuidado y en la liberación de tensión."
+            },
+            {
+              "titulo": "Señales para consultar a un profesional",
+              "contenido": "Si al despertar notas dolor de mandíbula, dolor de cabeza frecuente o desgaste dental, podrías tener bruxismo, y un masaje no es suficiente: consulta con tu dentista o médico. Del mismo modo, si el masaje te produce dolor en la articulación temporomandibular o chasquidos, suspende la práctica y busca valoración profesional."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-yoga-facial-5-minutos",
+          "titulo": "Rutina de yoga facial de 5 minutos",
+          "excerpt": "La versión exprés para días con poco tiempo: cinco movimientos sencillos que puedes hacer incluso en la oficina.",
+          "fecha": "agosto 2026",
+          "lectura": "6 min",
+          "secciones": [
+            {
+              "titulo": "Cinco minutos bien usados",
+              "contenido": "La constancia vale más que la duración: una rutina corta hecha a diario es más realista y sostenible que una sesión larga ocasional. En 5 minutos no cabe todo, así que la clave es elegir movimientos que combinen drenaje, relajación y un poco de activación. Esta rutina está pensada para hacerse sin espejo y sin productos especiales."
+            },
+            {
+              "titulo": "Los cinco movimientos esenciales",
+              "contenido": "Primero, un minuto de drenaje deslizando los dedos del centro del rostro hacia las orejas y bajando por el cuello. Segundo, un minuto alisando la frente con las yemas de abajo hacia arriba. Tercero, un minuto de círculos suaves en sienes y maseteros. Cuarto, un minuto de presión ligera alrededor de los ojos siguiendo el hueso orbital, sin tocar el globo ocular. Quinto, un minuto de golpecitos suaves con las yemas por mejillas y mandíbula para terminar."
+            },
+            {
+              "titulo": "Expectativas honestas",
+              "contenido": "Cinco minutos diarios pueden ayudarte a sentir el rostro menos tenso y con mejor aspecto momentáneo, sobre todo en días de cansancio. Pero es poco realista esperar cambios visibles en flacidez o arrugas con sesiones tan cortas; los pocos estudios que existen sobre ejercicio facial usaban rutinas mucho más largas y sostenidas durante meses. Úsala como ritual de bienestar y complemento, no como tratamiento."
+            },
+            {
+              "titulo": "Errores comunes a evitar",
+              "contenido": "El error más frecuente es hacer los movimientos con prisa y demasiada presión, tirando de la piel en lugar de deslizarse sobre ella. Otro error es practicar sobre piel seca, lo que aumenta la fricción; si no tienes producto a mano, al menos hazlo con las manos ligeramente húmedas. Si notas irritación o enrojecimiento persistente después de la rutina, reduce la presión o consulta con un dermatólogo."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-yoga-facial-10-minutos",
+          "titulo": "Rutina de yoga facial de 10 minutos",
+          "excerpt": "Una sesión completa pero manejable que cubre frente, ojos, mejillas, mandíbula y cuello, con instrucciones realistas.",
+          "fecha": "agosto 2026",
+          "lectura": "8 min",
+          "secciones": [
+            {
+              "titulo": "Por qué 10 minutos es un buen punto de equilibrio",
+              "contenido": "Diez minutos permiten trabajar todas las zonas del rostro sin que la rutina se haga difícil de mantener. Es una duración que encaja bien tanto por la mañana como por la noche, y da tiempo a hacer cada movimiento con calma, que es como realmente se aprovecha. Recuerda que la regularidad importa más que la perfección técnica."
+            },
+            {
+              "titulo": "Estructura de la sesión",
+              "contenido": "Dedica los primeros 2 minutos al drenaje linfático general, del centro del rostro hacia afuera y hacia el cuello. Luego reparte 2 minutos por zona: frente (alisado con yemas), contorno de ojos (presión suave sobre el hueso orbital), mejillas (círculos ascendentes en pómulos) y mandíbula-cuello (masaje de maseteros y deslizamientos hacia la clavícula). Termina con 1-2 minutos de golpecitos suaves y respiración profunda."
+            },
+            {
+              "titulo": "Qué puedes esperar con el tiempo",
+              "contenido": "Los efectos más probables son una mejor sensación de relax facial, menos tensión mandibular y un aspecto temporalmente más descansado. Algunos estudios pequeños han sugerido mejoras modestas en la apariencia de las mejillas tras meses de práctica diaria, pero la evidencia es preliminar y no concluyente. Mantén expectativas moderadas y valora sobre todo cómo te sientes."
+            },
+            {
+              "titulo": "Cuándo esta rutina no es suficiente",
+              "contenido": "Si tu preocupación principal es flacidez marcada, arrugas profundas o cambios importantes en la piel, el yoga facial por sí solo no dará resultados significativos. En esos casos lo adecuado es consultar con un dermatólogo, que puede valorar opciones con evidencia más sólida, desde activos tópicos como retinoides hasta procedimientos médicos. La rutina puede convivir con esos tratamientos, pero no reemplazarlos."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-para-principiantes",
+          "titulo": "Rutina para principiantes",
+          "excerpt": "Si nunca has hecho yoga facial ni seguido una rutina de skincare, empieza aquí: lo básico, sin tecnicismos y sin presiones.",
+          "fecha": "agosto 2026",
+          "lectura": "10 min",
+          "secciones": [
+            {
+              "titulo": "Empieza por lo esencial",
+              "contenido": "Antes de cualquier ejercicio facial, lo que más evidencia tiene para la salud de la piel es una base de cuidado simple: limpieza suave, hidratación y protección solar diaria. Si no tienes esa base, ningún masaje compensará su ausencia. Una vez cubierta, el yoga facial se suma como un extra de bienestar."
+            },
+            {
+              "titulo": "Tu primera rutina de yoga facial",
+              "contenido": "Para empezar, basta con tres movimientos: drenaje suave del centro del rostro hacia las orejas y el cuello, alisado de la frente con las yemas y círculos relajantes en las sienes. Practica 5 minutos al día durante dos semanas antes de añadir más. Lo importante al principio es aprender a tocar tu rostro sin tirar de la piel: presión suave, siempre con algo de producto para facilitar el deslizamiento."
+            },
+            {
+              "titulo": "Mitos que conviene dejar atrás desde el principio",
+              "contenido": "No es cierto que el yoga facial borre arrugas en semanas ni que sustituya al protector solar, al retinol o a la consulta dermatológica. Tampoco es cierto que más presión o más tiempo signifiquen mejores resultados; de hecho, la fricción excesiva puede irritar. Lo realista es esperar relajación, menos hinchazón momentánea y un ritual agradable."
+            },
+            {
+              "titulo": "Cómo saber si vas bien",
+              "contenido": "Las señales de que lo haces correctamente son sencillas: la piel no queda roja ni irritada, sientes los músculos más relajados y disfrutas del momento. Si aparece dolor, enrojecimiento persistente o granitos nuevos, algo falla: revisa la presión, la higiene de tus manos y los productos que usas. Ante cualquier duda sobre tu piel, un dermatólogo es siempre la mejor fuente."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-para-papada",
+          "titulo": "Rutina para la papada",
+          "excerpt": "Qué puede y qué no puede hacer el ejercicio facial por la zona del mentón y el cuello, explicado sin promesas milagrosas.",
+          "fecha": "agosto 2026",
+          "lectura": "9 min",
+          "secciones": [
+            {
+              "titulo": "Por qué aparece la papada",
+              "contenido": "La papada puede deberse a varios factores: acumulación de grasa bajo el mentón, laxitud de la piel por edad o pérdida de peso, genética y postura (pasar horas con la cabeza inclinada hacia el móvil no ayuda). Entender la causa importa, porque el ejercicio facial no actúa igual sobre la grasa que sobre la tensión muscular o la piel."
+            },
+            {
+              "titulo": "Ejercicios y masaje para la zona",
+              "contenido": "Puedes trabajar la zona con tres gestos: elevaciones lentas de la cabeza mirando al techo con la boca cerrada, manteniendo unos segundos; deslizamientos firmes pero suaves con los nudillos desde el mentón hacia los ángulos de la mandíbula y bajando por el cuello; y el gesto de pronunciar vocales exageradas para activar los músculos del cuello. Hazlo 5-8 minutos al día, sin forzar la articulación. Estos ejercicios pueden mejorar el tono y la sensación de firmeza de la musculatura superficial."
+            },
+            {
+              "titulo": "Honestidad sobre los resultados",
+              "contenido": "El ejercicio no elimina la grasa localizada: eso está claro en la evidencia general sobre pérdida de grasa, que no ocurre de forma selectiva por ejercitar una zona. Si la papada se debe principalmente a grasa o a laxitud importante de la piel, los cambios con ejercicio serán limitados. Las opciones con más respaldo en esos casos son médicas o quirúrgicas, y las valora un profesional."
+            },
+            {
+              "titulo": "Cuándo buscar valoración profesional",
+              "contenido": "Si la papada te preocupa de forma importante, un dermatólogo o médico estético puede explicarte opciones reales según tu caso, desde tratamientos de reducción de grasa hasta procedimientos de tensado. También conviene consultar si notas un bulto, crecimiento reciente o asimetría en la zona, para descartar causas que no son estéticas."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-antiarrugas",
+          "titulo": "Rutina antiarrugas",
+          "excerpt": "Una visión honesta de lo que de verdad influye en las arrugas y cómo encaja el yoga facial dentro de una estrategia con evidencia.",
+          "fecha": "agosto 2026",
+          "lectura": "10 min",
+          "secciones": [
+            {
+              "titulo": "Lo primero: qué causa las arrugas",
+              "contenido": "Las arrugas vienen de la combinación de movimientos repetidos de la expresión, pérdida de colágeno y elastina con la edad, y daño acumulado, sobre todo por el sol. El factor externo más importante y demostrado es la radiación ultravioleta, por eso la protección solar diaria es la medida antiarrugas con más evidencia que existe. Ninguna rutina de ejercicio facial puede competir con eso."
+            },
+            {
+              "titulo": "Qué sí tiene respaldo",
+              "contenido": "Además del protector solar, los activos tópicos con mejor evidencia son los retinoides, la vitamina C y los ácidos exfoliantes usados correctamente, siempre según tolerancia de cada piel. Mantener la piel hidratada mejora también el aspecto de las líneas finas. Estas medidas actúan sobre la piel; el ejercicio facial actúa, como mucho, sobre la musculatura y la sensación de firmeza."
+            },
+            {
+              "titulo": "Dónde encaja el yoga facial",
+              "contenido": "El yoga facial puede aportar relajación de los músculos que mantenemos tensos (frente, entrecejo, mandíbula) y eso puede suavizar temporalmente la expresión de ciertas líneas. La evidencia sobre mejoras duraderas es escasa y de estudios pequeños, así que conviene verlo como complemento. Una rutina razonable: 8-10 minutos de masaje suave y estiramientos faciales por la noche, tras tu limpieza e hidratación."
+            },
+            {
+              "titulo": "Cuándo considerar opciones profesionales",
+              "contenido": "Para arrugas ya establecidas y profundas, las opciones con resultados demostrados son médicas: procedimientos que valora un dermatólogo según tu tipo de piel y expectativas. Consultar no te compromete a nada, pero te da información real en lugar de promesas de productos milagrosos. Desconfía de cualquier rutina, crema o aparato que prometa borrar arrugas por completo."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-con-gua-sha",
+          "titulo": "Rutina con gua sha",
+          "excerpt": "Cómo usar la piedra de gua sha de forma segura, qué beneficios reales tiene y qué esperar de esta herramienta tradicional.",
+          "fecha": "agosto 2026",
+          "lectura": "9 min",
+          "secciones": [
+            {
+              "titulo": "Qué es el gua sha y de dónde viene",
+              "contenido": "El gua sha facial es una adaptación suave de una técnica tradicional china de raspado de la piel, aplicada al rostro con piedras lisas de cuarzo, jade u otros materiales. En la versión facial la presión es muy ligera, nada que ver con la técnica corporal original, que es más intensa. Se usa deslizando la piedra sobre la piel con un aceite o crema que facilite el movimiento."
+            },
+            {
+              "titulo": "Técnica básica paso a paso",
+              "contenido": "Con la piel limpia y bien lubricada, sostén la piedra casi plana contra la piel (unos 15-30 grados) y desliza siempre del centro hacia afuera: desde la nariz hacia las orejas, desde el mentón hacia la mandíbula, desde las cejas hacia la línea del cabello. Termina bajando por el cuello hacia las clavículas para favorecer el drenaje. Repite cada movimiento de 3 a 5 veces con presión suave, en unos 5-10 minutos."
+            },
+            {
+              "titulo": "Beneficios reales frente a promesas",
+              "contenido": "Lo que el gua sha puede hacer de forma razonable: reducir temporalmente la hinchazón por drenaje de líquidos, relajar la musculatura y dar un aspecto momentáneo más luminoso por el aumento de la circulación. Lo que no está demostrado: que remodela el óvalo facial, levanta los pómulos o elimina arrugas de forma permanente. Los cambios visibles son sutiles y transitorios."
+            },
+            {
+              "titulo": "Seguridad e higiene",
+              "contenido": "Nunca uses la piedra sobre piel irritada, acné inflamado, heridas o después de procedimientos dermatológicos sin autorización de tu profesional. Limpia la piedra con agua y jabón después de cada uso, porque acumula restos de producto y bacterias. Si notas moratones o dolor, estás usando demasiada presión; el gua sha facial nunca debería dejar marcas."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-con-rodillo-facial",
+          "titulo": "Rutina con rodillo facial",
+          "excerpt": "El rodillo de jade o cuarzo es la herramienta facial más sencilla de usar: aquí tienes cómo sacarle partido sin caer en exageraciones.",
+          "fecha": "agosto 2026",
+          "lectura": "7 min",
+          "secciones": [
+            {
+              "titulo": "Qué hace (y qué no hace) un rodillo facial",
+              "contenido": "El rodillo facial es básicamente una herramienta de masaje: al deslizarse sobre la piel ayuda a mover líquidos, relaja y da una sensación agradable de frescor, sobre todo si lo guardas en la nevera. No tonifica músculos ni reafirma la piel de forma duradera; su efecto es principalmente de drenaje temporal y bienestar. Con eso claro, es una herramienta legítima y disfrutable."
+            },
+            {
+              "titulo": "Cómo usarlo correctamente",
+              "contenido": "Aplica antes un sérum, aceite o crema para que ruede sin arrastrar la piel. Rueda siempre del centro hacia afuera y hacia arriba: de la nariz a las sienes, del mentón a las orejas, de las cejas a la línea del cabello, y baja por el cuello al final. Usa el lado grande para mejillas, frente y cuello, y el lado pequeño para el contorno de ojos, con presión muy ligera en esa zona. Cinco minutos son suficientes."
+            },
+            {
+              "titulo": "Cuándo saca más partido",
+              "contenido": "El rodillo frío por la mañana es especialmente útil para la sensación de hinchazón en párpados y mejillas, porque el frío ayuda a la vasoconstricción y el movimiento al drenaje. También es un buen aliado para aplicar productos de forma más placentera. Si buscas resultados estructurales en la piel, necesitas activos tópicos con evidencia o valoración profesional, no una herramienta de masaje."
+            },
+            {
+              "titulo": "Higiene y materiales",
+              "contenido": "Lávalo con agua tibia y jabón suave después de cada uso y déjalo secar bien. En cuanto a materiales, jade, cuarzo o metal funcionan de forma muy parecida; la diferencia de resultados entre piedras es más de marketing que de evidencia. Evita usarlo sobre acné activo, rosácea en brote o piel irritada."
+            }
+          ]
+        },
+        {
+          "slug": "rutina-skincare-y-yoga-facial",
+          "titulo": "Rutina de skincare y yoga facial combinados",
+          "excerpt": "Cómo ordenar limpieza, activos, hidratación y masaje facial en una sola rutina coherente, por la mañana y por la noche.",
+          "fecha": "agosto 2026",
+          "lectura": "11 min",
+          "secciones": [
+            {
+              "titulo": "El orden importa",
+              "contenido": "Una rutina combinada funciona mejor si sigue una lógica: primero limpiar, después tratar (sérums o activos), luego hidratar y, al final, el masaje o yoga facial con el producto hidratante como medio de deslizamiento. Por la mañana, el cierre siempre debe ser el protector solar. El masaje se hace sobre la piel con producto, nunca en seco."
+            },
+            {
+              "titulo": "Ejemplo de rutina de mañana",
+              "contenido": "Limpieza suave o solo agua según tu tipo de piel, un sérum ligero si lo usas (por ejemplo con vitamina C o ácido hialurónico), crema hidratante y protector solar. El masaje matutino, de 3-5 minutos, se centra en drenaje: movimientos del centro del rostro hacia afuera y hacia el cuello, ideales para la hinchazón al despertar. Si usas rodillo frío, este es su mejor momento."
+            },
+            {
+              "titulo": "Ejemplo de rutina de noche",
+              "contenido": "Doble limpieza si llevas protector solar o maquillaje, activos de noche según tolerancia (los retinoides, si tu piel los admite, son los de mejor evidencia antienvejecimiento) e hidratación más rica. Después, 8-10 minutos de yoga facial relajante: sienes, entrecejo, maseteros y cuello. Evita el masaje intenso justo después de exfoliantes fuertes, porque la piel queda más sensible."
+            },
+            {
+              "titulo": "Combinaciones que debes evitar",
+              "contenido": "No hagas masaje con gua sha o rodillo sobre piel recién exfoliada con ácidos potentes, con un brote activo de acné o irritada, porque puedes empeorar la inflamación. Si acabas de empezar con retinoides y tu piel está sensibilizada, reduce el masaje a movimientos muy suaves o pausarlo unos días. Y ante cualquier reacción persistente, la consulta con un dermatólogo es la decisión correcta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "problemas-faciales",
+      "nombre": "Problemas faciales",
+      "descripcion": "Guías divulgativas sobre las preocupaciones faciales más comunes: por qué aparecen, qué puede ayudar según la evidencia general y cuándo es momento de consultar a un profesional.",
+      "articulos": [
+        {
+          "slug": "flacidez-facial",
+          "titulo": "Flacidez facial: qué se puede esperar",
+          "excerpt": "La flacidez tiene causas concretas y grados distintos. Te explicamos qué opciones reales existen según la evidencia y qué promesas conviene tomar con cautela.",
+          "fecha": "agosto 2026",
+          "lectura": "10 min",
+          "secciones": [
+            {
+              "titulo": "Por qué la piel pierde firmeza",
+              "contenido": "La flacidez facial se debe sobre todo a la pérdida de colágeno y elastina con la edad, al daño solar acumulado y a cambios en la grasa y los huesos del rostro. Factores como fumar, las variaciones importantes de peso y la genética también influyen. Es un proceso natural que no se puede detener por completo, aunque sí se puede influir en su ritmo."
+            },
+            {
+              "titulo": "Qué sí ayuda según la evidencia",
+              "contenido": "La medida preventiva con más respaldo es la protección solar diaria, porque el sol acelera la degradación del colágeno. En tópicos, los retinoides tienen evidencia de mejorar la calidad de la piel con uso sostenido. Para flacidez ya establecida, las opciones con resultados demostrados son procedimientos médicos, que un dermatólogo valora según el grado de laxitud de cada persona."
+            },
+            {
+              "titulo": "Qué esperar del ejercicio y el masaje facial",
+              "contenido": "El yoga facial y el masaje pueden mejorar la sensación de tono y el bienestar, y algún estudio pequeño sugiere cambios modestos con meses de práctica diaria. Pero la evidencia es limitada y no hay demostración de que reviertan una flacidez marcada. Son complementos agradables, no soluciones estructurales."
+            },
+            {
+              "titulo": "Cuándo consultar a un profesional",
+              "contenido": "Si la flacidez te preocupa, la consulta con un dermatólogo es el paso más útil: puede evaluar tu piel y explicarte opciones reales, desde tratamientos tópicos hasta procedimientos con evidencia, con expectativas honestas. Desconfía de cremas o aparatos que prometan 'efecto lifting' sin cirugía; esa afirmación no tiene respaldo."
+            }
+          ]
+        },
+        {
+          "slug": "arrugas",
+          "titulo": "Arrugas: causas reales y opciones con evidencia",
+          "excerpt": "Las arrugas son un proceso natural, pero hay medidas con respaldo sólido para prevenirlas y atenuarlas. Esto es lo que funciona y lo que no.",
+          "fecha": "agosto 2026",
+          "lectura": "10 min",
+          "secciones": [
+            {
+              "titulo": "Por qué aparecen las arrugas",
+              "contenido": "Hay dos grandes tipos: las dinámicas, que salen al gesticular por la contracción repetida de los músculos de la expresión, y las estáticas, que permanecen en reposo por la pérdida de colágeno, elastina y volumen. El daño solar acumulado es el acelerante externo más importante, seguido del tabaco. La genética y la edad hacen el resto."
+            },
+            {
+              "titulo": "Qué funciona según la evidencia",
+              "contenido": "El protector solar diario es la medida preventiva mejor demostrada. Entre los activos tópicos, los retinoides son los que tienen evidencia más sólida de mejorar arrugas finas con meses de uso; la vitamina C y algunos ácidos aportan beneficios adicionales. Para arrugas profundas, los procedimientos médicos son los que ofrecen resultados significativos y demostrados."
+            },
+            {
+              "titulo": "Qué no funciona (o no tanto como prometen)",
+              "contenido": "Las cremas caras no son necesariamente más eficaces: lo que importa es el activo y su concentración, no el precio. Los colágenos orales y tópicos tienen evidencia débil o discutida. Y el yoga facial puede relajar la musculatura de la expresión, pero no hay evidencia de que borre arrugas establecidas. Desconfía de cualquier promesa de resultados en días."
+            },
+            {
+              "titulo": "Cuándo consultar",
+              "contenido": "Consulta con un dermatólogo si quieres una estrategia seria de prevención o tratamiento, si tu piel reacciona mal a los activos o si las arrugas te generan malestar importante. Un profesional puede pautar retinoides de forma segura y valorar procedimientos con expectativas realistas. La información personalizada siempre supera a los consejos genéricos."
+            }
+          ]
+        },
+        {
+          "slug": "lineas-de-expresion",
+          "titulo": "Líneas de expresión: cuándo son normales y qué hacer",
+          "excerpt": "Reír y gesticular deja huella con el tiempo, y eso es normal. Te contamos qué diferencia a una línea de expresión de una arruga y qué opciones existen.",
+          "fecha": "agosto 2026",
+          "lectura": "8 min",
+          "secciones": [
+            {
+              "titulo": "Qué son exactamente",
+              "contenido": "Las líneas de expresión son pliegues que aparecen al gesticular: al sonreír, fruncir el ceño o entrecerrar los ojos. En pieles jóvenes desaparecen al relajar el rostro; con los años, por la pérdida de colágeno y la repetición del gesto, pueden volverse visibles en reposo. Son una parte normal de expresarse y no un defecto a corregir."
+            },
+            {
+              "titulo": "Cómo frenar que se fijen",
+              "contenido": "La prevención con más evidencia es el protector solar diario, porque el daño solar hace que la piel se recupere peor de cada pliegue. Mantener la piel bien hidratada mejora el aspecto de las líneas finas, y los retinoides tienen evidencia de mejorar la calidad de la piel a largo plazo. Relajar la tensión muscular consciente del entrecejo, por ejemplo con masaje suave, también puede ayudar a no sostener gestos."
+            },
+            {
+              "titulo": "Lo que no está demostrado",
+              "contenido": "No hay evidencia de que las cremas 'efecto botox' produzcan resultados comparables al procedimiento real. Los parches faciales pueden suavizar una línea por unas horas al hidratar, pero no cambian nada a largo plazo. Y aunque el yoga facial es agradable, no hay demostración de que prevenga la fijación de líneas de expresión."
+            },
+            {
+              "titulo": "Cuándo valorar opciones profesionales",
+              "contenido": "Si las líneas en reposo te molestan, un dermatólogo puede explicarte las opciones médicas disponibles, que son las que tienen resultados demostrados sobre las líneas dinámicas. Consultar es informativo y no te obliga a nada. Recuerda que suavizar no es lo mismo que borrar, y que un rostro con expresión es un rostro sano."
+            }
+          ]
+        },
+        {
+          "slug": "inflamacion-facial",
+          "titulo": "Inflamación facial: causas frecuentes y señales de alerta",
+          "excerpt": "La inflamación facial puede ser algo tan banal como una mala noche o la señal de una condición que merece atención. Aprende a distinguirlas.",
+          "fecha": "agosto 2026",
+          "lectura": "9 min",
+          "secciones": [
+            {
+              "titulo": "Causas habituales y transitorias",
+              "contenido": "Las causas más comunes de hinchazón facial leve son la retención de líquidos (por sal, alcohol, calor o dormir poco), las alergias, la sinusitis y la irritación por productos cosméticos. Este tipo de inflamación suele fluctuar a lo largo del día, empeora por la mañana y mejora con medidas sencillas. Identificar el desencadenante es la clave."
+            },
+            {
+              "titulo": "Qué puede ayudar en casa",
+              "contenido": "Para la hinchazón por retención de líquidos ayudan: dormir con la cabeza ligeramente elevada, reducir el exceso de sal y alcohol, hidratarse bien y aplicar frío local (un rodillo frío o compresas frías) junto con drenaje suave. Si sospechas que un cosmético irrita tu piel, suspendelo y observa. Estas medidas son razonables para casos leves y ocasionales."
+            },
+            {
+              "titulo": "Señales de alerta que no debes ignorar",
+              "contenido": "Consulta con un médico si la hinchazón aparece de forma súbita e intensa, si afecta a labios, lengua o dificulta la respiración (podría ser una reacción alérgica grave: es una urgencia), si viene con fiebre, dolor o enrojecimiento (posible infección), o si es persistente y progresiva. La hinchazón facial continua puede relacionarse con causas médicas que requieren diagnóstico."
+            },
+            {
+              "titulo": "Qué no hacer",
+              "contenido": "No apliques masajes intensos sobre una zona inflamada, caliente o dolorosa, porque puedes empeorar el proceso. No tomes antihistamínicos ni antiinflamatorios por tu cuenta de forma repetida sin saber la causa. Y no maquilles ni tapes una irritación activa sin resolver primero qué la provoca; pregúntale a un farmacéutico o médico ante la duda."
+            }
+          ]
+        },
+        {
+          "slug": "rostro-hinchado",
+          "titulo": "Rostro hinchado por la mañana: por qué pasa y cómo mejorarlo",
+          "excerpt": "Despertarse con la cara hinchada es muy común y casi siempre transitorio. Estas son las causas más frecuentes y los hábitos que de verdad ayudan.",
+          "fecha": "agosto 2026",
+          "lectura": "8 min",
+          "secciones": [
+            {
+              "titulo": "Por qué amanecemos con la cara hinchada",
+              "contenido": "Al estar horas tumbados, los líquidos se redistribuyen hacia el rostro en lugar de drenar hacia abajo, y por eso la hinchazón es peor al despertar y mejora en una o dos horas. Lo agravan la cena salada, el alcohol, dormir poco, el calor y dormir boca abajo. En la mayoría de los casos es un tema de retención de líquidos, no de salud."
+            },
+            {
+              "titulo": "Hábitos que reducen la hinchazón",
+              "contenido": "Las medidas con más sentido son: cenar ligero y con poca sal, limitar el alcohol por la noche, dormir 7-9 horas con la cabeza algo elevada y beber suficiente agua durante el día. Parece contradictorio, pero una buena hidratación ayuda a no retener líquidos. Estos hábitos actúan sobre la causa, no solo sobre el síntoma."
+            },
+            {
+              "titulo": "Trucos rápidos para la mañana",
+              "contenido": "Para deshinchar en el momento, el frío es tu aliado: agua fría en la cara, un rodillo facial guardado en la nevera o compresas frías en párpados durante unos minutos. Complementa con un drenaje suave, deslizando los dedos del centro del rostro hacia las orejas y bajando por el cuello. El efecto es temporal pero real."
+            },
+            {
+              "titulo": "Cuándo no es solo retención de líquidos",
+              "contenido": "Consulta con un médico si la hinchazón es muy marcada cada día, no mejora al avanzar la mañana, aparece de repente o se acompaña de otros síntomas como cansancio, aumento de peso o cambios en la piel. Algunas condiciones médicas se manifiestan con hinchazón facial persistente, y conviene descartarlas en lugar de tratar solo lo estético."
+            }
+          ]
+        },
+        {
+          "slug": "papada",
+          "titulo": "Papada: causas, hábitos y opciones reales",
+          "excerpt": "La papada tiene causas variadas: grasa, piel, postura y genética. Entender cuál predomina en tu caso es clave para saber qué puede funcionar.",
+          "fecha": "agosto 2026",
+          "lectura": "9 min",
+          "secciones": [
+            {
+              "titulo": "Las cuatro causas principales",
+              "contenido": "La papada puede deberse a acumulación de grasa bajo el mentón (a veces incluso en personas delgadas, por genética), laxitud de la piel con la edad, debilidad de la musculatura del cuello y postura habitual con la cabeza adelantada. A menudo hay varias causas combinadas. Saber cuál predomina determina qué soluciones son realistas."
+            },
+            {
+              "titulo": "Qué pueden aportar los hábitos y el ejercicio",
+              "contenido": "Si hay exceso de peso general, reducirlo puede mejorar la papada, aunque no de forma selectiva: no se puede perder grasa solo de una zona. Los ejercicios de cuello y mentón pueden mejorar el tono muscular y la postura, lo que da un aspecto algo más firme en casos leves. Corregir la postura frente a pantallas (pantalla a la altura de los ojos) evita acentuar el pliegue."
+            },
+            {
+              "titulo": "Lo que no funciona",
+              "contenido": "Las cremas reafirmantes no eliminan grasa ni tensan la piel de forma significativa: como mucho hidratan. Los ejercicios faciales milagrosos que prometen borrar la papada en semanas carecen de respaldo. Y las fajas o bandas compresivas solo dan un efecto momentáneo mientras se llevan puestas."
+            },
+            {
+              "titulo": "Opciones profesionales y cuándo valorarlas",
+              "contenido": "Para papada por grasa localizada o laxitud importante, existen tratamientos médicos con evidencia que un dermatólogo o médico estético puede valorar según tu caso. La consulta te dará un diagnóstico de la causa real y opciones con expectativas honestas. Consulta también si notas un bulto o crecimiento reciente en la zona, para descartar otras causas."
+            }
+          ]
+        },
+        {
+          "slug": "ojeras",
+          "titulo": "Ojeras: no todas son iguales (y eso cambia el tratamiento)",
+          "excerpt": "Hay ojeras por pigmento, por vasos sanguíneos visibles y por sombras de la anatomía. Cada tipo responde a cosas distintas: te ayudamos a identificar la tuya.",
+          "fecha": "agosto 2026",
+          "lectura": "9 min",
+          "secciones": [
+            {
+              "titulo": "Los tres tipos de ojeras",
+              "contenido": "Las ojeras pigmentarias son marrones y se deben a exceso de melanina, frecuente en pieles morenas y con componente genético. Las vasculares son violáceas o azuladas, por vasos sanguíneos visibles bajo una piel muy fina. Y las estructurales son sombras causadas por la forma de la cuenca del ojo o por hundimiento, no por color. Un truco casero: estira suavemente la piel; si el color no cambia, es estructural."
+            },
+            {
+              "titulo": "Qué factores las empeoran",
+              "contenido": "Dormir poco y la fatiga empeoran el aspecto de las ojeras, sobre todo las vasculares, aunque rara vez son su única causa. Las alergias y el hábito de frotarse los ojos aumentan la pigmentación y la congestión de la zona. El sol oscurece las ojeras pigmentarias, así que el protector solar y las gafas de sol son prevención real."
+            },
+            {
+              "titulo": "Qué puede ayudar según el tipo",
+              "contenido": "Para las pigmentarias, los activos despigmentantes tópicos pueden ayudar con meses de uso y siempre con protección solar. Para las vasculares, dormir bien, el frío local y tratar las alergias mejoran el aspecto. Las estructurales apenas responden a cosméticos: las opciones reales son médicas. En todos los casos, una hidratación adecuada del contorno mejora la apariencia general."
+            },
+            {
+              "titulo": "Cuándo consultar",
+              "contenido": "Consulta con un dermatólogo si quieres tratamiento específico, porque el diagnóstico del tipo de ojera cambia por completo el enfoque. También si las ojeras aparecen de forma súbita, son asimétricas o vienen con otros síntomas, para descartar causas médicas. Y ten presente que las ojeras son en gran parte genéticas: mejorarlas es posible, borrarlas del todo, rara vez."
+            }
+          ]
+        },
+        {
+          "slug": "bolsas-en-los-ojos",
+          "titulo": "Bolsas en los ojos: retención de líquidos o grasa, dos problemas distintos",
+          "excerpt": "Las bolsas matutinas que se deshinchan no son lo mismo que las bolsas permanentes. Distinguirlas es el primer paso para saber qué puede funcionar.",
+          "fecha": "agosto 2026",
+          "lectura": "8 min",
+          "secciones": [
+            {
+              "titulo": "Dos tipos de bolsas",
+              "contenido": "Las bolsas por retención de líquidos son peores al despertar y mejoran a lo largo del día; se relacionan con sal, alcohol, poco sueño y postura al dormir. Las bolsas permanentes se deben a que la grasa que rodea el ojo se desplaza hacia adelante con la edad, y no cambian durante el día. Distinguir una de otra es esencial, porque responden a cosas completamente distintas."
+            },
+            {
+              "titulo": "Qué funciona para las bolsas por líquidos",
+              "contenido": "Reduce la sal en la cena, limita el alcohol nocturno, duerme con la cabeza algo elevada y aplica frío por la mañana (compresas frías, rodillo frío o cucharas frías) junto con un drenaje suave desde el párpado hacia la sien y el cuello. Tratar las alergias también ayuda, porque la congestión favorece la retención en la zona. Estas medidas tienen un efecto real, aunque temporal."
+            },
+            {
+              "titulo": "Lo que no funciona para las bolsas permanentes",
+              "contenido": "Ninguna crema elimina la grasa herniada que causa las bolsas estructurales, por muy específica que diga ser. Los masajes y rodillos tampoco, aunque pueden mejorar la congestión asociada. Las bolsas permanentes solo se corrigen con procedimientos médicos o quirúrgicos, y eso lo valora un especialista."
+            },
+            {
+              "titulo": "Cuándo consultar",
+              "contenido": "Consulta si las bolsas te preocupan y quieres conocer opciones reales, o si la hinchazón de los párpados es nueva, intensa, asimétrica o viene con picor y enrojecimiento, ya que podría tratarse de alergia u otra condición. La hinchazón persistente de ambos párpados también merece revisión médica para descartar causas no estéticas."
+            }
+          ]
+        },
+        {
+          "slug": "patas-de-gallo",
+          "titulo": "Patas de gallo: prevención realista y opciones con respaldo",
+          "excerpt": "Las líneas alrededor de los ojos son de las primeras en aparecer, y también de las más prevenibles. Esto es lo que dice la evidencia.",
+          "fecha": "agosto 2026",
+          "lectura": "8 min",
+          "secciones": [
+            {
+              "titulo": "Por qué aparecen tan pronto",
+              "contenido": "La piel del contorno de ojos es de las más finas del cuerpo y se pliega miles de veces al día al sonreír y entrecerrar los ojos. A eso se suma que es una zona muy expuesta al sol y que a menudo olvidamos proteger. Con la pérdida de colágeno, esos pliegues repetidos acaban marcándose en reposo."
+            },
+            {
+              "titulo": "La prevención que sí tiene evidencia",
+              "contenido": "El protector solar diario y las gafas de sol con protección UV son la doble barrera con más sentido: las gafas además reducen el gesto de entrecerrar los ojos. Hidratar bien el contorno mejora el aspecto de las líneas finas, y los retinoides formulados para la zona, usados con tolerancia y constancia, tienen evidencia de mejorar la calidad de esa piel con el tiempo."
+            },
+            {
+              "titulo": "Expectativas honestas sobre cremas y masajes",
+              "contenido": "Los contornos de ojos hidratan y pueden suavizar temporalmente las líneas finas, pero ninguno borra patas de gallo establecidas. Los masajes y el yoga facial no tienen evidencia de revertir estas arrugas, y la fricción excesiva en una piel tan fina puede ser contraproducente. Aplica los productos con el dedo anular y sin arrastrar."
+            },
+            {
+              "titulo": "Cuándo considerar opciones médicas",
+              "contenido": "Si las patas de gallo te molestan en reposo, las opciones con resultados demostrados son procedimientos médicos que valora un dermatólogo. Consultar te permite conocer qué es realista para tu caso concreto. Y recuerda: estas líneas son también la huella de sonreír, y suavizarlas no significa eliminarlas por completo."
+            }
+          ]
+        },
+        {
+          "slug": "piel-opaca",
+          "titulo": "Piel opaca: cómo recuperar la luminosidad",
+          "excerpt": "La piel apagada suele deberse a células muertas acumuladas, deshidratación o falta de sueño. Se recupera, pero hay que saber por dónde empezar.",
+          "fecha": "agosto 2026",
+          "lectura": "7 min",
+          "secciones": [
+            { "titulo": "Por qué la piel pierde luz", "contenido": "La piel luminosa refleja la luz porque su superficie es lisa y está hidratada. Cuando se acumulan células muertas, la superficie se vuelve irregular y la luz se dispersa: el resultado es ese tono apagado y cansado. Las causas habituales son la renovación celular lenta, la deshidratación, el daño solar acumulado, el tabaco, el mal sueño y, a veces, una rutina demasiado agresiva que deja la piel irritada en lugar de radiante." },
+            { "titulo": "El trío que devuelve el brillo", "contenido": "La combinación con más respaldo es exfoliación química suave, hidratación efectiva y protección solar diaria. Un exfoliante con ácidos suaves una o dos veces por semana retira la capa apagada; los humectantes como el ácido hialurónico y la glicerina rellenan de agua la superficie; y el protector solar evita que el daño siga acumulándose. La vitamina C por la mañana añade luminosidad por su acción antioxidante." },
+            { "titulo": "Lo que apaga la piel sin que lo notes", "contenido": "Dormir poco, fumar, beber poca agua y limpiar en exceso son enemigos silenciosos de la luminosidad. También lo es la sobreexfoliación: una piel exfoliada en exceso se ve tirante y gris, no brillante. Si tu piel se apagó justo cuando empezaste a usar más activos, la respuesta probablemente sea quitar, no añadir." },
+            { "titulo": "Cuándo la opacidad es síntoma de otra cosa", "contenido": "Si la piel apagada viene acompañada de cansancio persistente, palidez o cambios en uñas y pelo, conviene una revisión médica: a veces la piel refleja anemia, problemas de tiroides o déficits nutricionales. La cosmética mejora la superficie, pero la piel también habla de lo que pasa dentro." }
+          ]
+        },
+        {
+          "slug": "manchas-faciales",
+          "titulo": "Manchas faciales: tipos, causas y qué funciona",
+          "excerpt": "Sol, hormonas o marcas de acné: cada mancha tiene su origen y su tratamiento. Lo primero es saber cuál es la tuya.",
+          "fecha": "agosto 2026",
+          "lectura": "9 min",
+          "secciones": [
+            { "titulo": "Los tres tipos principales", "contenido": "Las manchas solares (lentigos) aparecen en zonas expuestas tras años de sol. El melasma son placas simétricas ligadas a hormonas y sol, más comunes en mujeres. Y la hiperpigmentación postinflamatoria es la marca oscura que deja un grano, una herida o un eccema. Cada una responde a estrategias distintas, y tratar un melasma como si fuera una marca de acné puede empeorarlo." },
+            { "titulo": "Los ingredientes con evidencia", "contenido": "Los despigmentantes tópicos con más datos son la vitamina C, la niacinamida, el ácido azelaico y los retinoides, usados de forma sostenida durante meses. Los exfoliantes suaves ayudan a renovar la superficie. Ninguno borra una mancha en semanas: el plazo realista es de tres a seis meses, y en el melasma, el control es el objetivo más que la desaparición total." },
+            { "titulo": "El paso sin el que nada funciona", "contenido": "Tratar manchas sin protección solar diaria estricta es como fregar con el grifo abierto: la radiación UV estimula la producción de melanina y deshace el progreso. Protector de amplio espectro cada mañana, reaplicado si hay exposición, es la medida que decide si el resto del tratamiento sirve de algo. En melasma, además, los protectores con color añaden defensa frente a la luz visible." },
+            { "titulo": "Cuándo necesitas un dermatólogo", "contenido": "Si una mancha cambia de forma, color o tamaño, sangra o tiene bordes irregulares, la revisión no es opcional: es dermatología, no cosmética. También conviene consultar si el melasma es extenso, si las manchas no responden tras seis meses de rutina constante, o si quieres valorar opciones profesionales como peelings o láser." }
+          ]
+        },
+        {
+          "slug": "poros-dilatados",
+          "titulo": "Poros dilatados: qué se puede mejorar y qué no",
+          "excerpt": "Los poros no se abren ni se cierran, pero su aspecto sí mejora. La clave está en el sebo, la limpieza y las expectativas.",
+          "fecha": "agosto 2026",
+          "lectura": "7 min",
+          "secciones": [
+            { "titulo": "Por qué se ven grandes", "contenido": "El tamaño base de los poros es genético. Lo que los hace más visibles es la producción de sebo que los distiende, los tapones de células muertas y sebo oxidado (puntos negros), y la pérdida de firmeza de la piel alrededor con la edad y el sol. Por eso los poros se notan más en la zona T y en pieles grasas, y por eso ningún tónico 'cierra poros' de forma permanente." },
+            { "titulo": "Lo que sí mejora su aspecto", "contenido": "El ácido salicílico es el ingrediente de referencia: al ser liposoluble penetra en el poro y disuelve el tapón. La niacinamida ayuda a regular el sebo con el tiempo. Los retinoides mejoran la textura global y el recambio celular. Y la limpieza suave pero constante evita que el sebo se acumule. El resultado realista es un poro menos visible, no un poro inexistente." },
+            { "titulo": "Los errores que los empeoran", "contenido": "Apretar los puntos negros con los dedos, usar tiras de poros a diario, exfoliar en exceso y limpiar con productos agresivos dilatan e irritan aún más la zona. El agua muy caliente y los aceites pesados en pieles grasas tampoco ayudan. La piel tratada con agresión responde con más sebo: el círculo se autoalimenta." },
+            { "titulo": "Una rutina sensata para poros visibles", "contenido": "Mañana: limpieza suave, niacinamida, hidratante ligera y protector solar. Noche: limpieza, ácido salicílico dos o tres veces por semana, retinoide las demás noches si lo toleras, e hidratación. Arcillas una vez por semana como mucho. En dos o tres meses el aspecto mejora de forma visible; quien prometa poros invisibles en días vende espejismos." }
+          ]
+        },
+        {
+          "slug": "piel-deshidratada",
+          "titulo": "Piel deshidratada: no es lo mismo que piel seca",
+          "excerpt": "La deshidratación es falta de agua y le pasa a cualquier tipo de piel, incluso a las grasas. Se arregla en días si aciertas el enfoque.",
+          "fecha": "agosto 2026",
+          "lectura": "7 min",
+          "secciones": [
+            { "titulo": "Deshidratada no es seca", "contenido": "La piel seca es un tipo de piel que produce poco sebo; la deshidratada es un estado de falta de agua que puede afectar a cualquier tipo, incluidas las grasas. Por eso hay pieles que brillan y tiran a la vez. Las señales de deshidratación son tirantez tras la limpieza, líneas finas que se marcan al pellizcar suavemente y un tono apagado que mejora tras aplicar hidratación." },
+            { "titulo": "Por qué pierde agua la piel", "contenido": "Las causas habituales son limpiadores agresivos, exfoliación excesiva, retinoides mal introducidos, calefacción y aire acondicionado, clima seco y no beber suficiente agua. También el exceso de capas de productos que taponan sin hidratar. La deshidratación suele ser la forma que tiene la barrera de pedir que simplifiques la rutina." },
+            { "titulo": "Cómo rehidratar de verdad", "contenido": "La fórmula es humectar y sellar: primero ingredientes que atraen agua (ácido hialurónico, glicerina, pantenol) sobre la piel ligeramente húmeda, y después una crema con lípidos (ceramidas, escualano) que impida que esa agua se evapore. Humectar sin sellar en clima seco puede incluso empeorar la situación. En una o dos semanas de rutina correcta, la piel deshidratada suele normalizarse." },
+            { "titulo": "Cuándo no es solo deshidratación", "contenido": "Si además de tirantez hay descamación intensa, rojez, picor o grietas, puede haber daño de barrera o una dermatitis que necesita revisión. Y si la piel no mejora con dos semanas de hidratación bien hecha, conviene consultar: algunas condiciones como la dermatitis seborreica o el eccema se disfrazan de simple sequedad." }
+          ]
+        },
+        {
+          "slug": "tension-mandibular",
+          "titulo": "Tensión mandibular: la cara del estrés",
+          "excerpt": "Apretar la mandíbula marca el rostro, duele y sobrecarga. Aprender a soltarla cambia más tu expresión que muchos sérums.",
+          "fecha": "agosto 2026",
+          "lectura": "7 min",
+          "secciones": [
+            { "titulo": "Qué es y de dónde viene", "contenido": "La tensión mandibular es la contracción sostenida de los músculos de la masticación, casi siempre ligada a estrés, concentración o bruxismo (apretar o rechinar los dientes, a menudo dormido). Con el tiempo puede dar dolor al despertar, dolores de cabeza tensionales, desgaste dental y una línea de mandíbula más ancha por hipertrofia del músculo masetero." },
+            { "titulo": "Señales de que aprietas sin saberlo", "contenido": "Despertar con la mandíbula cansada, dolor de cabeza en las sienes, dientes sensibles sin caries, chasquidos al abrir la boca y dificultad para mantener los labios juntos con los dientes separados son señales típicas. Un test rápido: a lo largo del día, comprueba cuántas veces tienes los dientes en contacto. Deberían tocarse solo al comer o hablar." },
+            { "titulo": "Qué puedes hacer en casa", "contenido": "El masaje del masetero con los nudillos, desde el pómulo hacia la mandíbula, dos minutos por lado, alivia la tensión acumulada. Los estiramientos suaves de apertura y la postura consciente 'labios juntos, dientes separados, lengua en el paladar' reeducan el hábito. El calor local antes de dormir ayuda a soltar. Y gestionar la causa —estrés, pantallas, cafeína tardía— es lo que evita que vuelva." },
+            { "titulo": "Cuándo consultar", "contenido": "Si hay dolor persistente, limitación para abrir la boca, chasquidos dolorosos o desgaste dental visible, la valoración corresponde al dentista o al especialista en articulación temporomandibular. Las férulas de descarga nocturnas y la fisioterapia tienen buena evidencia en bruxismo. El autocuidado alivia, pero el bruxismo establecido necesita manejo profesional." }
+          ]
+        }
+      ]
+    }
+  ]
+}

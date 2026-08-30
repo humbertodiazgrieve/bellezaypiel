@@ -1,0 +1,36 @@
+# Bellezaypiel
+
+> Skincare leído despacio. Fichas de ingredientes con nivel de evidencia, artículos sobre cuidado facial, yoga facial, técnicas e instrumentos, revisados con calma. Información divulgativa, nunca consejo médico individual.
+
+## Estructura del sitio
+
+- [Inicio](https://bellezaypiel.com/): portada con estudios destacados y navegación por territorios.
+- [Fichas de ingrediente](https://bellezaypiel.com/ingredientes/): 22 moléculas con nivel de evidencia, concentración con respaldo, combinaciones y precauciones.
+- [Diario](https://bellezaypiel.com/diario/): artículos largos organizados por subcategorías: yoga facial, ejercicios faciales, rutinas, masajes faciales, cuidado facial, problemas faciales y guías comparativas.
+- [Catálogo de productos](https://bellezaypiel.com/catalogo/): productos probados durante ocho semanas, sin precios ni enlaces de compra; veredicto por evidencia y tolerancia.
+- [Instrumentos faciales](https://bellezaypiel.com/instrumento/): guías informativas sobre gua sha, rodillos, ventosas y dispositivos (LED, microcorrientes).
+- [Técnicas faciales](https://bellezaypiel.com/tecnicas-faciales/): guías informativas sobre técnicas como drenaje linfático, kobido, face taping y mewing.
+- [Armar mi rutina](https://bellezaypiel.com/rutina/): test de seis pasos para construir una rutina personalizada.
+
+## Subcategorías del diario
+
+- [Yoga facial](https://bellezaypiel.com/diario/yoga-facial/)
+- [Ejercicios faciales](https://bellezaypiel.com/diario/ejercicios-faciales/)
+- [Rutinas](https://bellezaypiel.com/diario/rutinas/)
+- [Masajes faciales](https://bellezaypiel.com/diario/masajes-faciales/)
+- [Cuidado facial](https://bellezaypiel.com/diario/cuidado-facial/)
+- [Problemas faciales](https://bellezaypiel.com/diario/problemas-faciales/)
+- [Guías y comparativas](https://bellezaypiel.com/diario/guias/)
+
+## Principios editoriales
+
+- Nivel de evidencia declarado en cada ficha: alta, media o limitada.
+- Fecha de revisión visible en cada contenido.
+- Sin promesas que la química no sostiene. Si algo no está medido, se dice en la primera línea.
+- Contenido divulgativo; las lesiones que cambian o no cierran corresponden a dermatología.
+
+## Contacto
+
+- [Contacto](https://bellezaypiel.com/contacto/)
+- [Mapa del sitio](https://bellezaypiel.com/mapa-de-sitio/)
+- [Sitemap XML](https://bellezaypiel.com/sitemap.xml)

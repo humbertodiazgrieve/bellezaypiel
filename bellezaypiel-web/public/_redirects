@@ -1,0 +1,22 @@
+# Redirecciones 301 de la estructura antigua a la nueva
+/yoga-facial/* /diario/yoga-facial/:splat 301
+/yoga-facial/ /diario/yoga-facial/ 301
+/ejercicios-faciales/* /diario/ejercicios-faciales/:splat 301
+/ejercicios-faciales/ /diario/ejercicios-faciales/ 301
+/rutinas/* /diario/rutinas/:splat 301
+/rutinas/ /diario/rutinas/ 301
+/masajes-faciales/* /diario/masajes-faciales/:splat 301
+/masajes-faciales/ /diario/masajes-faciales/ 301
+/cuidado-facial/* /diario/cuidado-facial/:splat 301
+/cuidado-facial/ /diario/cuidado-facial/ 301
+/problemas-faciales/* /diario/problemas-faciales/:splat 301
+/problemas-faciales/ /diario/problemas-faciales/ 301
+/guias/* /diario/guias/:splat 301
+/guias/ /diario/guias/ 301
+/herramientas/gua-sha/ /instrumento/gua-sha/ 301
+/herramientas/rodillo-facial/ /instrumento/rodillo-facial/ 301
+/herramientas/ice-roller/ /instrumento/ice-roller/ 301
+/herramientas/ventosas-faciales/ /instrumento/ventosas-faciales/ 301
+/herramientas/microcorrientes-faciales/ /instrumento/dispositivos-microcorrientes/ 301
+/herramientas/face-taping/ /tecnicas-faciales/face-taping/ 301
+/herramientas/ /instrumento/ 301

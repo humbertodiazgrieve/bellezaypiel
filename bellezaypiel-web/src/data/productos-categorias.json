@@ -1,0 +1,22 @@
+{
+  "categorias": [
+    { "slug": "limpiadores-faciales", "nombre": "Limpiadores faciales", "descripcion": "La limpieza es el paso que más se hace mal: demasiado agresiva, demasiado a menudo. Aquí van los que limpian sin despojar." },
+    { "slug": "tonicos-faciales", "nombre": "Tónicos faciales", "descripcion": "El paso más prescindible de la rutina, salvo que aporte algo concreto: hidratación, calmantes o exfoliación suave." },
+    { "slug": "esencias-faciales", "nombre": "Esencias faciales", "descripcion": "Híbridos entre tónico y sérum, heredados del cuidado coreano. Útiles cuando aportan humectación ligera de verdad." },
+    { "slug": "serums-faciales", "nombre": "Sérums faciales", "descripcion": "El paso donde viven los activos: concentraciones útiles, fórmulas cortas y expectativas honestas." },
+    { "slug": "cremas-hidratantes", "nombre": "Cremas hidratantes", "descripcion": "El paso que sella la rutina. Humectantes, emolientes y oclusivos bien combinados según tu tipo de piel." },
+    { "slug": "cremas-antiedad", "nombre": "Cremas antiedad", "descripcion": "Qué puede pedirse a una crema antiedad según la evidencia: textura, líneas finas y prevención, no milagros." },
+    { "slug": "cremas-reafirmantes", "nombre": "Cremas reafirmantes", "descripcion": "Firmeza realista: lo que los ingredientes con evidencia pueden mejorar y lo que ninguna crema puede." },
+    { "slug": "contorno-de-ojos", "nombre": "Contorno de ojos", "descripcion": "La piel más fina del rostro: cuándo merece un producto propio y cuándo tu hidratante es suficiente." },
+    { "slug": "aceites-para-masaje-facial", "nombre": "Aceites para masaje facial", "descripcion": "Deslizamiento sin comedogenicidad: los aceites adecuados para gua sha, rodillo y masaje manual." },
+    { "slug": "mascarillas-faciales", "nombre": "Mascarillas faciales", "descripcion": "El gesto semanal que más se sobrevalora: cuándo aportan algo y cuándo son solo un rato agradable." },
+    { "slug": "exfoliantes-faciales", "nombre": "Exfoliantes faciales", "descripcion": "Química suave frente a grano físico: cómo exfoliar sin dañar la barrera que luego toca reparar." },
+    { "slug": "protectores-solares-faciales", "nombre": "Protectores solares faciales", "descripcion": "El producto con más evidencia antiedad que existe. La única regla real: que te lo pongas a diario." },
+    { "slug": "productos-para-piel-madura", "nombre": "Productos para piel madura", "descripcion": "Sequedad, menos colágeno y renovación lenta: las fórmulas que responden a lo que de verdad cambia." },
+    { "slug": "productos-para-flacidez-facial", "nombre": "Productos para flacidez facial", "descripcion": "Qué puede mejorar un cosmético y dónde empieza el terreno de los procedimientos profesionales." },
+    { "slug": "productos-para-arrugas", "nombre": "Productos para arrugas", "descripcion": "Retinoides, vitamina C y protector solar: el enfoque con datos, sin promesas de borrado mágico." },
+    { "slug": "productos-para-ojeras", "nombre": "Productos para ojeras", "descripcion": "Pigmento, vasos o sombra: el tipo de ojera decide si un cosmético puede ayudar o no." },
+    { "slug": "productos-para-rostro-hinchado", "nombre": "Productos para rostro hinchado", "descripcion": "Cafeína, frío y fórmulas ligeras: lo cosmético como apoyo del drenaje, no como sustituto." },
+    { "slug": "productos-para-usar-con-gua-sha", "nombre": "Productos para usar con gua sha", "descripcion": "Todo lo que el gua sha necesita de un producto es deslizamiento y calma. Estas fórmulas lo dan." }
+  ]
+}

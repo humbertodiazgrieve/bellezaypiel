@@ -1,0 +1,95 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ingredientes from '../data/ingredientes.json';
+import { categoriasDiario } from '../data/diario';
+import { coleccionesPilares } from '../data/pilares';
+import productos from '../data/productos-categorias.json';
+
+const principales = [
+  { nombre: 'Inicio', url: '/' },
+  { nombre: 'Fichas de ingrediente', url: '/ingredientes/' },
+  { nombre: 'Diario', url: '/diario/' },
+  { nombre: 'Catálogo de productos', url: '/catalogo/' },
+  { nombre: 'Categorías de productos', url: '/productos/' },
+  { nombre: 'Instrumentos faciales', url: '/instrumento/' },
+  { nombre: 'Técnicas faciales', url: '/tecnicas-faciales/' },
+  { nombre: 'Armar mi rutina', url: '/rutina/' },
+  { nombre: 'Estudios', url: '/estudios/' },
+  { nombre: 'Metodología', url: '/metodologia/' },
+  { nombre: 'Contacto', url: '/contacto/' },
+  { nombre: 'Privacidad', url: '/privacidad/' },
+];
+
+const h2 = 'font-family:var(--font-heading);font-size:27px;letter-spacing:-.02em;margin:0 0 16px;';
+const list = 'margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:8px 28px;';
+const item = 'font-size:14.5px;line-height:1.5;';
+---
+
+<Layout title="Mapa del sitio — Bellezaypiel" description="Todos los contenidos de Bellezaypiel en una sola página.">
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header />
+
+    <div style="padding:52px 56px 0;max-width:1280px;margin:0 auto;">
+      <div style="display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a><span>/</span><span style="font-weight:600;color:var(--color-text);">Mapa del sitio</span>
+      </div>
+      <h1 style="font-family:var(--font-heading);font-size:52px;line-height:1.08;letter-spacing:-.028em;margin:0;">Mapa del sitio</h1>
+      <p style="font-size:17px;line-height:1.7;color:#3a3733;margin:22px 0 0;max-width:58ch;">Todo lo que hemos publicado, en una sola página.</p>
+    </div>
+
+    <div style="padding:48px 56px 64px;max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:44px;">
+      <section>
+        <h2 style={h2}>Páginas principales</h2>
+        <ul style={list}>
+          {principales.map((p) => (
+            <li style={item}><a href={p.url} style="color:var(--color-text);">{p.nombre}</a></li>
+          ))}
+        </ul>
+      </section>
+
+      <section>
+        <h2 style={h2}>Fichas de ingrediente ({ingredientes.ingredientes.length})</h2>
+        <ul style={list}>
+          {ingredientes.ingredientes.map((i) => (
+            <li style={item}><a href={`/ingredientes/${i.slug}/`} style="color:var(--color-text);">{i.nombre}</a></li>
+          ))}
+        </ul>
+      </section>
+
+      {categoriasDiario.map((cat) => (
+        <section>
+          <h2 style={h2}><a href={`/diario/${cat.slug}/`} style="color:var(--color-text);">{cat.nombre}</a> ({cat.articulos.length})</h2>
+          <ul style={list}>
+            {cat.articulos.map((a) => (
+              <li style={item}><a href={`/diario/${cat.slug}/${a.slug}/`} style="color:var(--color-text);">{a.titulo}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      {coleccionesPilares.map((col) => (
+        <section>
+          <h2 style={h2}><a href={`/${col.slug}/`} style="color:var(--color-text);">{col.nombre}</a> ({col.items.length})</h2>
+          <ul style={list}>
+            {col.items.map((i) => (
+              <li style={item}><a href={`/${col.slug}/${i.slug}/`} style="color:var(--color-text);">{i.nombre}</a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+
+      <section>
+        <h2 style={h2}><a href="/productos/" style="color:var(--color-text);">Categorías de productos</a> ({productos.categorias.length})</h2>
+        <ul style={list}>
+          {productos.categorias.map((p) => (
+            <li style={item}><a href={`/productos/${p.slug}/`} style="color:var(--color-text);">{p.nombre}</a></li>
+          ))}
+        </ul>
+      </section>
+    </div>
+
+    <Footer />
+  </div>
+</Layout>

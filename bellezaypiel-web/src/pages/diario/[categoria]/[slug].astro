@@ -1,0 +1,105 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Header from '../../../components/Header.astro';
+import Footer from '../../../components/Footer.astro';
+import { getAllArticulos, getArticulo, getCategoria } from '../../../data/diario';
+
+export function getStaticPaths() {
+  return getAllArticulos().map(({ categoria, articulo }) => ({
+    params: { categoria: categoria.slug, slug: articulo.slug },
+  }));
+}
+
+const { categoria, slug } = Astro.params;
+const data = getArticulo(categoria, slug)!;
+const cat = data.categoria;
+const art = data.articulo;
+
+const relacionados = cat.articulos.filter((a) => a.slug !== slug).slice(0, 3);
+
+const title = `${art.titulo} — Bellezaypiel`;
+---
+
+<Layout title={title} description={art.excerpt}>
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header active="diario" />
+
+    <div style="position:relative;padding:52px 56px 0;overflow:hidden;max-width:1280px;margin:0 auto;">
+      <div style="position:absolute;right:-90px;top:-120px;width:300px;height:300px;border-radius:50%;background:var(--color-accent-100);opacity:.6;"></div>
+      <div style="position:relative;display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;flex-wrap:wrap;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a>
+        <span>/</span>
+        <a href="/diario/" style="color:var(--color-neutral-700);">Diario</a>
+        <span>/</span>
+        <a href={`/diario/${cat.slug}/`} style="color:var(--color-neutral-700);">{cat.nombre}</a>
+        <span>/</span>
+        <span style="font-weight:600;color:var(--color-text);">{art.titulo}</span>
+      </div>
+      <span style="position:relative;display:inline-block;font-size:12px;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--color-accent-700);margin-bottom:14px;">{cat.nombre}</span>
+      <h1 style="position:relative;font-family:var(--font-heading);font-size:48px;line-height:1.1;letter-spacing:-.026em;margin:0;max-width:22ch;">{art.titulo}</h1>
+      <p style="position:relative;font-size:17px;line-height:1.7;color:#3a3733;margin:20px 0 0;max-width:58ch;">{art.excerpt}</p>
+      <p style="position:relative;font-size:13.5px;color:var(--color-neutral-700);margin:18px 0 0;">{art.fecha} · {art.lectura} de lectura</p>
+    </div>
+
+    <div style="padding:40px 56px 0;max-width:1280px;margin:0 auto;">
+      <figure style="margin:0;border-radius:32px;overflow:hidden;background:var(--color-surface);aspect-ratio:21/9;display:grid;place-content:center;">
+        <img src={`/images/diario/${cat.slug}/${art.slug}.svg`} alt={art.titulo} style="width:100%;height:100%;object-fit:cover;" />
+      </figure>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1fr 340px;gap:56px;padding:52px 56px 0;max-width:1280px;margin:0 auto;">
+      <article style="max-width:68ch;">
+        {art.secciones.map((sec) => (
+          <section style="margin-bottom:36px;">
+            <h2 style="font-family:var(--font-heading);font-size:28px;line-height:1.2;letter-spacing:-.02em;margin:0 0 14px;">{sec.titulo}</h2>
+            <p style="font-size:16.5px;line-height:1.8;color:#3a3733;margin:0;">{sec.contenido}</p>
+          </section>
+        ))}
+        <div style="background:var(--color-accent2-100);border-radius:24px;padding:26px 28px;margin-top:44px;">
+          <p style="font-size:14.5px;line-height:1.7;color:var(--color-accent2-800);margin:0;">
+            <strong>Recuerda:</strong> esto es información divulgativa, no un consejo médico individual. Si tienes una lesión que cambia, sangra o no mejora, la siguiente parada es dermatología.
+          </p>
+        </div>
+      </article>
+
+      <aside style="display:flex;flex-direction:column;gap:24px;">
+        <div style="background:var(--color-neutral-100);border-radius:28px;padding:28px;">
+          <h3 style="font-family:var(--font-heading);font-size:20px;line-height:1.2;margin:0 0 16px;">Más de {cat.nombre.toLowerCase()}</h3>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:14px;">
+            {relacionados.map((rel) => (
+              <li>
+                <a href={`/diario/${cat.slug}/${rel.slug}/`} style="color:var(--color-text);text-decoration:none;">
+                  <strong style="display:block;font-family:var(--font-heading);font-weight:400;font-size:16.5px;line-height:1.3;">{rel.titulo}</strong>
+                  <span style="font-size:13px;color:var(--color-neutral-700);">{rel.lectura}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div style="background:var(--color-accent-100);border-radius:28px;padding:28px;">
+          <h3 style="font-family:var(--font-heading);font-size:20px;line-height:1.2;margin:0 0 12px;">Explora más</h3>
+          <ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:10px;font-size:15px;">
+            <li><a href="/ingredientes/" style="font-weight:600;color:var(--color-text);">Fichas de ingrediente</a></li>
+            <li><a href="/rutina/" style="font-weight:600;color:var(--color-text);">Armar mi rutina</a></li>
+            <li><a href="/diario/" style="font-weight:600;color:var(--color-text);">Todo el diario</a></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <div style="padding:70px 56px 64px;max-width:1280px;margin:0 auto;">
+      <div style="background:var(--color-accent2-100);border-radius:40px;padding:44px 48px;display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center;">
+        <div>
+          <h3 style="font-family:var(--font-heading);font-size:27px;line-height:1.16;margin:0;">El resumen del mes, en cinco minutos de lectura</h3>
+          <p style="font-size:15.5px;line-height:1.65;color:var(--color-accent2-800);margin:14px 0 0;max-width:50ch;">Un correo al mes con lo que salió publicado, lo que cambia una rutina real y lo que puedes ignorar sin culpa.</p>
+        </div>
+        <div style="display:flex;gap:12px;align-items:stretch;width:380px;">
+          <input type="email" placeholder="tu@correo.com" aria-label="Correo electrónico" style="flex:1;border-radius:999px;min-height:46px;padding:6px 14px;font:inherit;font-size:14px;color:var(--color-text);background:var(--color-surface);border:1px solid var(--color-divider);" />
+          <button type="button" style="border-radius:999px;padding:0 24px;min-height:46px;background:var(--color-accent);color:var(--color-bg);font-family:var(--font-heading);font-size:14px;border:none;cursor:pointer;">Suscribirme</button>
+        </div>
+      </div>
+    </div>
+
+    <Footer />
+  </div>
+</Layout>

@@ -1,0 +1,222 @@
+{
+  "colecciones": [
+    {
+      "slug": "instrumento",
+      "nombre": "Instrumentos faciales",
+      "descripcion": "Guías informativas sobre las herramientas del cuidado facial: qué hacen de verdad, cómo usarlas y para quién tienen sentido. Sin precios ni promesas infladas.",
+      "items": [
+        {
+          "slug": "gua-sha",
+          "nombre": "Gua sha",
+          "resumen": "La piedra plana que drena y relaja. Buena para la hinchazón matutina; limitada para todo lo demás.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "El gua sha facial es una herramienta plana de piedra o cuarzo que se desliza por el rostro con un medio lubricante, siguiendo la tradición de la medicina china adaptada al cuidado cosmético. Su acción principal es mecánica: el deslizamiento con presión suave favorece el movimiento de líquidos y relaja la musculatura facial. No estimula colágeno ni 'esculpe' el óvalo de forma duradera, aunque el aspecto más descansado tras la sesión es real y visible.",
+          "beneficios": ["Reduce la hinchazón matutina de forma transitoria al favorecer el drenaje", "Relaja la tensión muscular de mandíbula y frente", "Mejora la sensación de la rutina: cinco minutos de calma que invitan a la constancia", "El frescor de la piedra calma la sensación de calor en piel reactiva"],
+          "comoUsar": ["Limpia la piel y aplica un aceite ligero o sérum untuoso para que la piedra deslice sin tirar", "Sujeta la piedra casi plana contra la piel, con presión suave", "Trabaja del centro del rostro hacia afuera: barbilla hacia orejas, mejillas hacia sienes, frente hacia el nacimiento del pelo", "Repite cada pasada de tres a cinco veces, siempre en el mismo sentido", "Termina bajando por el cuello hacia las clavículas para completar el drenaje"],
+          "frecuencia": "De dos a cinco minutos, de dos a cuatro veces por semana. Más tiempo o más presión no dan más resultado; dan rojez.",
+          "precauciones": "No usar sobre brotes activos, heridas, quemaduras solares o rosácea en brote. Evita presión fuerte en el cuello. Si estás embarazada o sigues tratamiento anticoagulante, consulta antes con un profesional. Limpia la piedra después de cada uso.",
+          "paraQuien": "Sí: quien amanece hinchado o con la mandíbula cargada y quiere un ritual breve y calmado. No: quien busca levantar tejidos o eliminar arrugas; para eso no hay piedra."
+        },
+        {
+          "slug": "rodillo-facial",
+          "nombre": "Rodillo facial",
+          "resumen": "El instrumento más fácil de usar y el de expectativas más modestas: frescor, calma y poco más.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "El rodillo facial es una herramienta con una o dos piedras giratorias (jade, cuarzo u otros materiales) que se pasa por el rostro. Su efecto es puramente mecánico y térmico: la piedra fría contrae vasos superficiales y el rodaje mueve fluidos. No penetra ingredientes ni tensa la piel. Su valor real está en lo agradable del gesto y en el alivio transitorio de la hinchazón, sobre todo guardado en la nevera.",
+          "beneficios": ["Descongestiona de forma transitoria, sobre todo frío", "Es imposible de usar mal: presión mínima y gesto simple", "Calma la sensación de calor tras la ducha o el ejercicio", "Puerta de entrada fácil a un ritual de autocuidado"],
+          "comoUsar": ["Guárdalo en la nevera si buscas efecto descongestionante", "Aplica antes un sérum o aceite ligero para que ruede sin fricción", "Rueda del centro hacia afuera: nariz a orejas, frente a sienes, barbilla a lóbulos", "Usa el rodillo pequeño para el contorno de ojos, con la mínima presión", "Dos a cinco minutos bastan; no es una cuestión de tiempo"],
+          "frecuencia": "A diario si te apetece: su presión es tan suave que el riesgo de irritación es mínimo. Por la mañana es cuando más se nota su efecto descongestionante.",
+          "precauciones": "Evítalo sobre piel con brotes activos o irritada. La piedra debe estar limpia; rodar sobre piel sucia solo mueve la suciedad. No esperes cambios estructurales: su efecto se mide en horas, no en semanas.",
+          "paraQuien": "Sí: quien busca un gesto rápido y placentero para despertar la cara. No: quien espera resultados antiedad; hay mejores usos del dinero."
+        },
+        {
+          "slug": "ice-roller",
+          "nombre": "Ice roller",
+          "resumen": "Frío puro para la hinchazón y la rojez. Efecto inmediato, duración corta, evidencia simple pero honesta.",
+          "evidencia": "Evidencia media",
+          "queEs": "El ice roller es un rodillo con cabezal metálico o de gel que se enfría en la nevera o el congelador. Su mecanismo es el más transparente de todos los instrumentos faciales: el frío contrae los vasos sanguíneos superficiales, reduce la inflamación local y adormece la sensación de irritación. Es la versión casera de la crioterapia, con efectos reales aunque breves sobre hinchazón, rojez y sensación de calor.",
+          "beneficios": ["Reduce la hinchazón matutina de cara y ojos en minutos", "Calma la rojez y la sensación de ardor tras exfoliación o sol leve", "Alivia la sensación de tensión de la piel reactiva", "Efecto inmediato y visible, aunque transitorio"],
+          "comoUsar": ["Enfría el cabezal en la nevera (no hace falta congelador para uso diario)", "Pásalo sobre piel limpia, con movimientos lentos del centro hacia afuera", "Detente unos segundos en las zonas más hinchadas, como el contorno de ojos", "Limita cada pasada a unos segundos por zona; el frío prolongado no suma", "Puedes usarlo sobre la hidratante recién aplicada para calmar la absorción"],
+          "frecuencia": "A diario, por la mañana o cuando la piel lo pida. Sesiones de uno a tres minutos son suficientes.",
+          "precauciones": "Nunca apliques hielo o cabezal congelado directo y fijo sobre la piel: el frío extremo y prolongado puede dañarla. Evítalo en rosácea con componente vascular marcado sin consultar antes. Si la piel queda blanca o adolorida, te has pasado de frío.",
+          "paraQuien": "Sí: rostros hinchados por la mañana, piel reactiva con sensación de calor, ojeras de retención. No: quien busca efectos antiedad duraderos; el frío descongestiona, no rejuvenece."
+        },
+        {
+          "slug": "ventosas-faciales",
+          "nombre": "Ventosas faciales",
+          "resumen": "Succión suave que moviliza fluidos y relaja. Técnica delicada que exige más cuidado del que aparenta.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "Las ventosas faciales son pequeñas copas de silicona que crean succión sobre la piel, adaptación cosmética de la ventosaterapia tradicional. La succión suave moviliza fluidos y aumenta la circulación local de forma transitoria. Son el instrumento con mayor riesgo de mal uso del catálogo casero: la succión fuerte o fija rompe capilares y deja marcas, algo que en el cuerpo se tolera y en la cara no.",
+          "beneficios": ["Moviliza la hinchazón con succión suave y constante", "Relaja la musculatura de mandíbula y sienes", "La circulación aumentada da un rubor temporal que algunos leen como 'glow'", "Puede aliviar la sensación de congestión de los pómulos"],
+          "comoUsar": ["Aplica siempre sobre piel con aceite o sérum abundante: la ventosa debe deslizar, nunca quedarse fija", "Aprieta la copa para crear succión mínima, posa y desliza sin detenerla", "Trabaja del centro hacia afuera con movimientos lentos y continuos", "Nunca dejes la ventosa fija en un punto: es la causa de los hematomas", "Sesiones de dos a tres minutos bastan; la piel facial es fina"],
+          "frecuencia": "Una o dos veces por semana como máximo, y solo si la piel responde sin marcas ni rojez persistente.",
+          "precauciones": "Contraindicadas en rosácea, capilares rotos visibles, piel muy fina o madura, acné activo y si tomas anticoagulantes. Cualquier marca morada es señal de que la succión fue excesiva. Si tienes dudas, el gua sha hace lo mismo con menos riesgo.",
+          "paraQuien": "Sí: pieles robustas con retención de líquidos y mano muy suave. No: pieles sensibles, con rosácea o capilares visibles; el riesgo supera al beneficio."
+        },
+        {
+          "slug": "masajeadores-faciales",
+          "nombre": "Masajeadores faciales",
+          "resumen": "Vibración o rodillos texturizados para automatizar el masaje. Agradables, opcionales y sin efectos que las manos no den.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "Bajo este nombre caben rodillos texturizados, masajeadores vibratorios y dispositivos con cabezales intercambiables. Todos automatizan lo que las manos hacen: presión y movimiento. La vibración añade una estimulación sensorial agradable y puede ayudar a relajar la musculatura, pero no existe evidencia de que superen al masaje manual bien hecho. Su valor es la comodidad: quien disfruta el aparato, masajea más.",
+          "beneficios": ["Hacen el masaje más cómodo y sostenible en el tiempo", "La vibración relaja la sensación de tensión de mandíbula y frente", "Algunos modelos calientan, lo que agrada en rutinas de noche", "Fomentan la constancia: el mejor efecto del masaje es hacerlo"],
+          "comoUsar": ["Úsalo sobre piel limpia con sérum o aceite para evitar fricción", "Empieza por la intensidad más baja; la cara no necesita potencia", "Recorre del centro hacia afuera, sin presionar: el aparato trabaja solo", "Limita la sesión a cinco minutos; más tiempo solo es más roce", "Limpia el cabezal tras cada uso, sobre todo si es texturizado"],
+          "frecuencia": "Dos o tres veces por semana es suficiente. El masaje diario intenso, sea manual o con aparato, termina irritando.",
+          "precauciones": "Evita la vibración sobre el contorno de ojos y sobre tiroides. No lo uses sobre brotes, irritación o tras procedimientos recientes. Si el aparato calienta, comprueba que la temperatura sea agradable, nunca alta.",
+          "paraQuien": "Sí: quien quiere el ritual sin esfuerzo y disfruta los aparatos. No: quien espera resultados que justifiquen un precio alto; unas manos y un aceite hacen lo mismo."
+        },
+        {
+          "slug": "dispositivos-led",
+          "nombre": "Dispositivos LED",
+          "resumen": "Luz roja y azul con evidencia real aunque modesta. El aparato casero con más estudios detrás, y el que más constancia exige.",
+          "evidencia": "Evidencia media",
+          "queEs": "Los dispositivos LED faciales emiten luz de longitudes de onda específicas: la roja (alrededor de 630-660 nm) se asocia con estimulación de fibroblastos y efecto antiinflamatorio, y la azul (alrededor de 415 nm) con acción antibacteriana sobre el acné. La fototerapia LED tiene estudios clínicos que muestran mejorías modestas pero reales en textura, rojez y acné leve. La diferencia con la clínica está en la potencia: los aparatos caseros son más débiles y por eso exigen más sesiones.",
+          "beneficios": ["La luz roja puede mejorar textura y rojez con uso sostenido", "La luz azul ayuda en acné leve como complemento, no como tratamiento único", "Tratamiento indoloro y sin irritación, apto para pieles sensibles", "Se combina bien con cualquier rutina cosmética"],
+          "comoUsar": ["Usa el dispositivo sobre piel limpia y seca, sin productos que puedan fotosensibilizar", "Sigue el tiempo del fabricante: suelen ser de diez a veinte minutos por sesión", "Mantén la distancia indicada; más cerca no significa más efecto", "Protege los ojos según las instrucciones del aparato", "Sé constante: los estudios usan varias sesiones semanales durante meses"],
+          "frecuencia": "Tres a cinco sesiones por semana durante al menos ocho a doce semanas antes de evaluar. La fototerapia casera es un maratón, no un sprint.",
+          "precauciones": "No usar con medicación fotosensibilizante sin consultar. Evita la luz azul en melasma, que puede empeorar con ciertas luces. Los dispositivos caseros son seguros si se usan según instrucciones, pero sus resultados son modestos: quien prometa cambios dramáticos, exagera.",
+          "paraQuien": "Sí: quien quiere sumar un tratamiento sin irritación y tiene disciplina para la constancia. No: quien busca resultados rápidos o no usará el aparato más de dos semanas."
+        },
+        {
+          "slug": "dispositivos-microcorrientes",
+          "nombre": "Dispositivos de microcorrientes",
+          "resumen": "Corriente suave que tonifica el músculo de forma transitoria. Efecto visible el mismo día, que se mantiene solo con uso continuado.",
+          "evidencia": "Evidencia media",
+          "queEs": "Los dispositivos de microcorrientes faciales emiten corrientes eléctricas de muy baja intensidad que estimulan la musculatura facial, una versión doméstica de la electroestimulación profesional. El efecto más documentado es una tonificación transitoria: el rostro se ve ligeramente más firme tras la sesión, especialmente en cejas y pómulos. La evidencia apoya el efecto inmediato; el efecto acumulado a largo plazo es más discutido y exige uso constante.",
+          "beneficios": ["Efecto tonificante visible tras la sesión, útil antes de un evento", "Puede mejorar el aspecto de firmeza con uso sostenido", "Indoloro cuando se usa con conductor adecuado", "Complementa bien el masaje manual y la gimnasia facial"],
+          "comoUsar": ["Aplica siempre un gel conductor o sérum abundante: sin conductor, la corriente pica y no funciona", "Desliza las esferas despacio, con presión ligera y movimientos ascendentes", "Trabaja por zonas: mandíbula, mejillas, pómulos, frente", "Sigue el tiempo por zona del fabricante; no lo alargues", "Termina con tu hidratante habitual"],
+          "frecuencia": "Los protocolos habituales piden cinco veces por semana el primer mes y luego mantenimiento de dos a tres. Si no puedes sostener ese ritmo, el aparato no es para ti.",
+          "precauciones": "Contraindicado con marcapasos, epilepsia, embarazo y sobre la zona del cuello anterior (tiroides). No usar sobre piel con lesiones o tras rellenos recientes sin consultar. Si sientes pinchazos, falta conductor o sobra intensidad.",
+          "paraQuien": "Sí: quien quiere un efecto 'buena cara' el mismo día y acepta la rutina de mantenimiento. No: quien busca un cambio permanente sin constancia; el músculo vuelve a su estado si paras."
+        }
+      ]
+    },
+    {
+      "slug": "tecnicas-faciales",
+      "nombre": "Técnicas faciales",
+      "descripcion": "Métodos y técnicas de trabajo facial, del drenaje linfático al mewing: qué hay detrás de cada nombre y qué puede esperarse con honestidad.",
+      "items": [
+        {
+          "slug": "face-taping",
+          "nombre": "Face taping",
+          "resumen": "Cintas adhesivas que inmovilizan zonas de expresión por la noche. Suaviza líneas por inmovilidad, no por tratamiento.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "El face taping consiste en aplicar cintas adhesivas especiales sobre zonas de expresión (entrecejo, frente, patas de gallo) durante la noche para limitar el movimiento muscular mientras se duerme. La lógica imita, de forma muy modesta, el principio del bótox: menos movimiento, menos marcaje de la línea. La evidencia es anecdótica; el efecto existe pero es temporal y puramente mecánico.",
+          "beneficios": ["Reduce el marcaje nocturno de líneas de expresión al inmovilizar la zona", "Puede suavizar temporalmente el aspecto del entrecejo por la mañana", "Hace consciente el hábito de fruncir, lo que ayuda a corregirlo de día", "Es barato y no invasivo"],
+          "comoUsar": ["Aplica la cinta solo sobre piel limpia y seca, sin activos irritantes debajo", "Colócala sin tensión excesiva: debe limitar el gesto, no estirar la piel", "Úsala de noche, sobre entrecejo o frente, nunca sobre piel irritada", "Retírala por la mañana con suavidad, ayudándote de agua tibia si tira", "Hidrata bien la zona tras retirarla"],
+          "frecuencia": "Puede usarse a diario por la noche si la piel lo tolera. Si aparece irritación o marcas de la adhesión, reduce la frecuencia.",
+          "precauciones": "Evítalo en piel sensible, con rosácea o con dermatitis: el adhesivo puede irritar. No es un tratamiento de arrugas establecidas; solo limita el gesto. Si te planteas inmovilizar el entrecejo de forma duradera, eso es una conversación con medicina estética, no con cinta adhesiva.",
+          "paraQuien": "Sí: quien frunce mucho al dormir y quiere limitar el marcaje nocturno. No: quien busca borrar arrugas ya formadas."
+        },
+        {
+          "slug": "drenaje-linfatico-facial",
+          "nombre": "Drenaje linfático facial",
+          "resumen": "La técnica con mejor fundamento para la hinchazón: movimientos suaves que acompañan a la linfa hacia los ganglios.",
+          "evidencia": "Evidencia media",
+          "queEs": "El drenaje linfático facial es una técnica de masaje con presión muy ligera y movimientos lentos y rítmicos que siguen el recorrido del sistema linfático, dirigiendo el líquido acumulado hacia los ganglios del cuello. Es la técnica de masaje con más fundamento fisiológico: el sistema linfático no tiene bomba propia y el movimiento manual lo ayuda. Su efecto sobre la hinchazón es real, aunque transitorio.",
+          "beneficios": ["Reduce la hinchazón facial y periocular de forma visible tras la sesión", "Alivia la sensación de pesadez de rostro por las mañanas", "Muy agradable en piel sensible por su presión mínima", "Complementa cualquier rutina sin riesgo de irritación"],
+          "comoUsar": ["Empieza siempre 'abriendo' el cuello: presiones suaves sobre las clavículas para preparar la salida de la linfa", "Usa presión muy ligera: la linfa está justo bajo la piel y la presión fuerte la comprime", "Trabaja con movimientos lentos y rítmicos del centro del rostro hacia las orejas y de ahí al cuello", "Dedica dos minutos al contorno de ojos con el dedo anular, del lagrimal hacia la sien", "Termina siempre bajando por el cuello hacia las clavículas"],
+          "frecuencia": "Puede hacerse a diario, de tres a cinco minutos, preferiblemente por la mañana. Es la técnica que más admite constancia diaria por su suavidad.",
+          "precauciones": "Evítalo con infecciones activas en la zona, fiebre o problemas linfáticos conocidos sin consultar. Si la hinchazón facial es repentina, intensa o unilateral, no es un tema de masaje: es un tema médico. El drenaje moviliza líquido; no trata sus causas si son médicas.",
+          "paraQuien": "Sí: casi todo el mundo, especialmente rostros que amanecen hinchados. No: como solución a hinchazones persistentes de causa médica."
+        },
+        {
+          "slug": "kobido",
+          "nombre": "Kobido",
+          "resumen": "El masaje japonés tradicional, el más completo de los faciales. Relaja, drena y deja buena cara; no levanta tejidos.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "El Kobido es un masaje facial japonés tradicional que combina movimientos rápidos y lentos, percusión suave, amasamiento y acupresión sobre rostro, cuello y escote. Se promociona como 'lifting natural', una etiqueta que hay que tomar con calma: mejora la circulación, drena y relaja la musculatura, y tras la sesión el rostro se ve visiblemente más descansado. Pero su efecto es transitorio; no reposiciona tejidos ni elimina flacidez establecida.",
+          "beneficios": ["El rostro se ve más descansado y luminoso tras la sesión", "Relaja en profundidad la musculatura de masticación y frente", "Combina drenaje, amasamiento y acupresión en una sola técnica", "La experiencia es profundamente relajante, lo que ya es beneficio"],
+          "comoUsar": ["En casa, la versión simplificada: piel limpia con aceite ligero y manos limpias", "Alterna amasamientos suaves de mejillas y mandíbula con golpecitos ligeros de yemas", "Incluye presiones calmadas en sienes, entrecejo y puntos de tensión de la mandíbula", "Dedica tiempo al cuello y escote, partes olvidadas que envejecen a la par", "Si puedes, date una sesión profesional primero para aprender las sensaciones"],
+          "frecuencia": "En casa, una o dos veces por semana de diez a quince minutos. Las sesiones profesionales suelen recomendarse en ciclos mensuales.",
+          "precauciones": "Evítalo con acné activo, rosácea en brote o piel irritada. La percusión y el amasamiento no deben doler nunca. No esperes efecto lifting duradero: es masaje, excelente en lo suyo, no cirugía.",
+          "paraQuien": "Sí: quien quiere un masaje completo, relajante y con buena cara inmediata. No: quien busca resultados estructurales; para eso existen otras vías."
+        },
+        {
+          "slug": "tapping-facial",
+          "nombre": "Tapping facial",
+          "resumen": "Golpecitos ligeros con las yemas para activar la circulación. Simple, gratuito y agradable; modesto en resultados.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "El tapping facial consiste en dar golpecitos suaves y rítmicos con las yemas de los dedos sobre el rostro, siguiendo zonas y, en algunas escuelas, puntos de acupresión. Estimula la microcirculación superficial y produce una activación sensorial agradable. Es la técnica más simple de todas: no requiere herramientas ni productos, y su principal mérito es lo fácil que es incorporarla a la rutina diaria.",
+          "beneficios": ["Activa la circulación superficial: un rubor leve y saludable tras la sesión", "Ayuda a la absorción sensorial de los productos recién aplicados", "Relaja la sensación de tensión de frente y mandíbula", "Se hace en un minuto, sin herramientas ni preparación"],
+          "comoUsar": ["Con la piel limpia y la hidratante recién aplicada, usa las yemas de los dedos", "Da golpecitos rápidos y ligeros por todo el rostro, de abajo hacia arriba", "Insiste un poco más en pómulos, mandíbula y frente", "Uno o dos minutos bastan; la piel debe quedar activada, no enrojecida", "Puede cerrarse con unas palmaditas calmadas para asentar"],
+          "frecuencia": "A diario, mañana o noche, como parte de la rutina de aplicación de productos. Es más un hábito que un tratamiento.",
+          "precauciones": "Evítalo sobre brotes activos o piel irritada. La presión debe ser mínima: si la piel queda roja o caliente, te has pasado. No esperes cambios estructurales; su aporte es circulatorio y sensorial.",
+          "paraQuien": "Sí: todo el mundo, como complemento diario y gratuito. No: como técnica principal si buscas drenaje profundo o relajación intensa."
+        },
+        {
+          "slug": "acupresion-facial",
+          "nombre": "Acupresión facial",
+          "resumen": "Presión calmada sobre puntos específicos para soltar tensión. Herencia de la medicina tradicional, útil sobre todo para mandíbula y cabeza.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "La acupresión facial aplica presión sostenida con los dedos sobre puntos específicos del rostro y la cabeza, siguiendo la tradición de la medicina china sin agujas. Donde tiene una base más razonable es en la liberación de puntos gatillo musculares: presionar con calma un músculo contraído ayuda a que se suelte. Para tensión mandibular, cefaleas tensionales y rigidez de la musculatura facial es una herramienta doméstica sensata.",
+          "beneficios": ["Alivia la tensión de mandíbula, sienes y frente", "Puede reducir la sensación de cefalea tensional leve", "No requiere herramientas ni productos", "Ayuda a tomar conciencia de dónde acumulas tensión"],
+          "comoUsar": ["Localiza los puntos de tensión: músculo masetero, sienes, entrecejo y base del cráneo", "Presiona con la yema o la falange, de forma firme pero sin dolor", "Mantén cada presión de treinta segundos a un minuto, respirando lento", "Combina con círculos pequeños y suaves sobre el punto", "Repite de dos a tres veces por punto, por ambos lados"],
+          "frecuencia": "A diario si hay tensión, o como ritual de noche. Es especialmente útil al final de jornadas de pantalla y concentración.",
+          "precauciones": "La presión nunca debe doler; el objetivo es soltar, no castigar. Si el dolor mandibular o las cefaleas son frecuentes o intensas, consulta: pueden indicar bruxismo o trastorno de la articulación temporomandibular que merecen valoración.",
+          "paraQuien": "Sí: quien acumula tensión en mandíbula y frente por estrés o pantallas. No: como sustituto de valoración médica si el dolor es persistente."
+        },
+        {
+          "slug": "mewing",
+          "nombre": "Mewing",
+          "resumen": "Postura lingual correcta: lengua en el paladar, labios juntos, dientes separados. Fisiológicamente razonable; sus promesas estéticas, exageradas.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "El mewing es la práctica de mantener una postura oral correcta: toda la lengua apoyada en el paladar, labios juntos, dientes sin contacto y respiración nasal. Tiene fundamento fisiológico real: la postura oral influye en la respiración, la tensión mandibular y el desarrollo facial en edad de crecimiento. Lo que no tiene evidencia es su promesa estrella: remodelar el rostro de un adulto. En adultos, su valor real es corregir hábitos de tensión y respiración, no esculpir mandíbulas.",
+          "beneficios": ["Corrige el hábito de respirar por la boca, con beneficios reales para la salud", "Reduce la tensión mandibular al mantener los dientes separados", "Mejora la postura de cabeza y cuello al corregir la posición oral", "Es gratuito y puede practicarse todo el día"],
+          "comoUsar": ["Apoya toda la lengua —punta, medio y fondo— contra el paladar", "Mantén los labios juntos y los dientes ligeramente separados", "Respira por la nariz, no por la boca", "Recuérdalo a lo largo del día hasta que se vuelva automático", "Combínalo con una buena postura general de cuello y hombros"],
+          "frecuencia": "No es una sesión, es una postura de fondo: el objetivo es que sea tu posición de descanso habitual. Los cambios de hábito llevan meses.",
+          "precauciones": "No fuerces la lengua ni la mandíbula: la postura debe ser cómoda. Si tienes problemas de respiración nasal, bruxismo o dolor de articulación, consulta con un profesional; el mewing no sustituye esa valoración. Desconfía de los canales que prometen transformaciones faciales en adultos: la evidencia no las sostiene.",
+          "paraQuien": "Sí: quien respira por la boca o aprieta la mandíbula por hábito. No: quien espera cambiar la estructura ósea de su cara adulta."
+        },
+        {
+          "slug": "ventosas-faciales",
+          "nombre": "Ventosas faciales",
+          "resumen": "Succión suave y deslizante para movilizar fluidos. Como técnica exige la misma delicadeza que como instrumento.",
+          "evidencia": "Evidencia limitada",
+          "queEs": "La ventosaterapia facial como técnica es el uso metódico de copas de silicona con succión suave y movimiento continuo sobre el rostro. A diferencia de la ventosaterapia corporal, donde las marcas se toleran, en la cara la regla es absoluta: la ventosa se desliza o no se pone. Bien ejecutada moviliza fluidos y relaja musculatura; mal ejecutada rompe capilares y deja hematomas visibles durante días.",
+          "beneficios": ["Drena la hinchazón cuando la succión es suave y el movimiento continuo", "Relaja la musculatura de mandíbula y pómulos", "La circulación activada da un rubor temporal de aspecto saludable", "Sesiones muy cortas: dos minutos bien hechos bastan"],
+          "comoUsar": ["Aplica aceite o sérum en abundancia: sin deslizamiento no hay técnica", "Crea succión mínima apretando ligeramente la copa antes de posarla", "Mantén la ventosa siempre en movimiento, del centro hacia afuera", "Nunca la detengas fija sobre la piel ni la retires tirando", "Limita la sesión a dos o tres minutos y observa la respuesta de tu piel"],
+          "frecuencia": "Una vez por semana como máximo, y solo si tu piel sale de la sesión sin marcas ni rojez persistente.",
+          "precauciones": "Contraindicada en rosácea, capilares visibles, piel fina o madura, acné activo y con anticoagulantes. Cualquier marca es señal de exceso. Si dudas entre esta técnica y el gua sha, el gua sha ofrece lo mismo con menos riesgo.",
+          "paraQuien": "Sí: pieles robustas con tendencia a la retención y mano experta o muy suave. No: pieles sensibles; aquí el riesgo supera al beneficio."
+        },
+        {
+          "slug": "crioterapia-facial",
+          "nombre": "Crioterapia facial",
+          "resumen": "Frío aplicado al rostro: desde el ice roller casero hasta cabinas profesionales. Lo que funciona es simple y barato.",
+          "evidencia": "Evidencia media",
+          "queEs": "La crioterapia facial es la aplicación de frío sobre el rostro, en versiones que van del rodillo frío casero a las cabinas profesionales de nitrógeno. El mecanismo es fisiológico y conocido: vasoconstricción, reducción de la inflamación local y efecto calmante inmediato. La versión casera —ice roller, cucharas frías, agua fría— captura la mayor parte del beneficio; las versiones profesionales añaden intensidad, no un mecanismo distinto.",
+          "beneficios": ["Reduce hinchazón y rojez de forma inmediata", "Calma la piel tras exfoliación, sol leve o irritación", "Despierta el rostro por la mañana mejor que el café", "La versión casera es casi gratuita y muy segura"],
+          "comoUsar": ["Empieza por lo simple: ice roller de nevera o cuchara fría sobre el contorno de ojos", "Aplica el frío en movimientos cortos, sin fijar en un punto", "Limita el contacto a unos segundos por zona", "Puedes terminar la limpieza de mañana con agua fría: mismo principio, cero coste", "Usa el frío después de la hidratante para calmar la absorción"],
+          "frecuencia": "A diario sin problema en su versión suave. Las sesiones profesionales intensas siguen protocolos concretos y no son necesarias para el beneficio cotidiano.",
+          "precauciones": "Nunca apliques hielo directo y fijo sobre la piel: quema por frío. En rosácea con componente vascular, consulta antes; el frío agrada a unas pieles y a otras no. Si usas cabinas profesionales, asegúrate de que el centro sigue protocolos de seguridad.",
+          "paraQuien": "Sí: todo el mundo en su versión casera, sobre todo rostros hinchados o reactivos. No: quien busca antiedad estructural; el frío calma y descongestiona, no rejuvenece."
+        },
+        {
+          "slug": "microcorrientes-faciales",
+          "nombre": "Microcorrientes faciales",
+          "resumen": "Electroestimulación suave del músculo facial. Efecto tonificante real pero transitorio, que vive de la constancia.",
+          "evidencia": "Evidencia media",
+          "queEs": "Las microcorrientes faciales son la aplicación de corriente eléctrica de muy baja intensidad sobre la musculatura del rostro, ya sea con dispositivos caseros o en cabina profesional. La corriente estimula la contracción y el tono muscular, y el efecto inmediato —un rostro ligeramente más firme y definido— está razonablemente documentado. Lo que exige honestidad es la duración: el efecto se desvanece si no hay mantenimiento, igual que la forma física.",
+          "beneficios": ["Tonificación visible tras la sesión, útil antes de eventos", "Mejora el aspecto de firmeza con uso sostenido", "Complementa la gimnasia facial con estímulo externo", "Indoloro y sin irritación cuando se usa bien"],
+          "comoUsar": ["Usa siempre gel conductor generoso; sin él, la corriente pica y no trabaja", "Desliza las esferas despacio y en dirección ascendente", "Sigue los tiempos por zona del fabricante sin alargarlos", "Combina con masaje manual los días sin aparato", "Evalúa tras un mes de uso regular, no tras dos sesiones"],
+          "frecuencia": "Los protocolos habituales piden frecuencia alta el primer mes (hasta cinco sesiones semanales) y mantenimiento después. Sin ese ritmo, el beneficio no se acumula.",
+          "precauciones": "Contraindicado con marcapasos, epilepsia, embarazo y sobre la zona anterior del cuello. No usar sobre lesiones, rellenos recientes o implantes metálicos faciales sin consultar. Compra solo dispositivos con certificación y sigue sus instrucciones.",
+          "paraQuien": "Sí: quien acepta una rutina de mantenimiento a cambio de tono visible. No: quien busca un cambio permanente; al parar, el músculo vuelve a su punto de partida."
+        },
+        {
+          "slug": "fototerapia-led",
+          "nombre": "Fototerapia LED",
+          "resumen": "Luz de longitudes concretas con estudios detrás: roja para inflamación y textura, azul para acné leve. Funciona, pero exige meses.",
+          "evidencia": "Evidencia media",
+          "queEs": "La fototerapia LED es el uso terapéutico de luz visible de longitudes de onda específicas. La luz roja y cercana al infrarrojo se asocia con efecto antiinflamatorio y estimulación de fibroblastos; la azul, con acción antibacteriana útil en acné leve. Es de las técnicas con más estudios clínicos del catálogo, con resultados modestos pero reproducibles. La versión casera es más débil que la profesional, así que su moneda de cambio es la constancia.",
+          "beneficios": ["La luz roja puede mejorar textura, rojez y recuperación de la piel", "La azul ayuda en acné leve como complemento", "Sin dolor, sin irritación y apta para pieles sensibles", "Compatible con cualquier rutina cosmética"],
+          "comoUsar": ["Sobre piel limpia y seca, sin productos fotosensibilizantes recién aplicados", "Respeta los tiempos del dispositivo, normalmente de diez a veinte minutos", "Mantén la distancia recomendada y protege los ojos según el aparato", "Alterna luz roja y azul según tu objetivo, nunca por capricho", "Combínala con tu rutina habitual; la luz suma, no sustituye"],
+          "frecuencia": "Tres a cinco sesiones semanales durante al menos ocho a doce semanas antes de evaluar. La fototerapia es la maratoniana de las técnicas: paga solo a quien persiste.",
+          "precauciones": "Consulta antes si tomas medicación fotosensibilizante. Evita la luz azul si tienes melasma. Los resultados son modestos y graduales; desconfía de promesas de transformación rápida. En acné moderado o severo, la LED es complemento del tratamiento médico, nunca sustituto.",
+          "paraQuien": "Sí: pieles con rojez, textura irregular o acné leve, y personas constantes. No: quien quiere resultados en dos semanas; esa tecnología no existe."
+        }
+      ]
+    }
+  ]
+}

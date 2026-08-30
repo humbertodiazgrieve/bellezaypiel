@@ -1,0 +1,45 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { getColeccion } from '../../data/pilares';
+
+const col = getColeccion('tecnicas-faciales')!;
+
+const tagStyle = (evidencia: string) =>
+  evidencia.toLowerCase().includes('alta')
+    ? 'background:var(--color-accent2-100);color:var(--color-accent2-800);'
+    : evidencia.toLowerCase().includes('limitada')
+      ? 'border:1px solid var(--color-accent);color:var(--color-accent);'
+      : 'background:var(--color-accent-100);color:var(--color-accent-800);';
+---
+
+<Layout title={`${col.nombre} — Bellezaypiel`} description={col.descripcion}>
+  <div style="background:var(--color-bg);min-height:100vh;">
+    <Header active="productos" />
+
+    <div style="position:relative;padding:52px 56px 0;overflow:hidden;max-width:1280px;margin:0 auto;">
+      <div style="position:absolute;right:-90px;top:-120px;width:300px;height:300px;border-radius:50%;background:var(--color-accent2-200);opacity:.7;"></div>
+      <div style="position:relative;display:flex;gap:8px;font-size:13.5px;color:var(--color-neutral-700);margin-bottom:20px;">
+        <a href="/" style="color:var(--color-neutral-700);">Inicio</a><span>/</span><span style="font-weight:600;color:var(--color-text);">{col.nombre}</span>
+      </div>
+      <h1 style="position:relative;font-family:var(--font-heading);font-size:52px;line-height:1.08;letter-spacing:-.028em;margin:0;max-width:20ch;">{col.nombre}</h1>
+      <p style="position:relative;font-size:17px;line-height:1.7;color:#3a3733;margin:22px 0 0;max-width:58ch;">{col.descripcion}</p>
+    </div>
+
+    <div style="padding:48px 56px 64px;max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;">
+      {col.items.map((item) => (
+        <a href={`/tecnicas-faciales/${item.slug}/`} style="display:flex;flex-direction:column;gap:14px;color:var(--color-text);text-decoration:none;background:var(--color-neutral-100);border-radius:26px;padding:24px;">
+          <figure style="margin:0;border-radius:18px;overflow:hidden;background:var(--color-surface);aspect-ratio:4/3;display:grid;place-content:center;">
+            <img src={`/images/tecnicas-faciales/${item.slug}.svg`} alt={item.nombre} style="width:100%;height:100%;object-fit:cover;" loading="lazy" />
+          </figure>
+          <span style={`display:inline-flex;align-items:center;font-size:11px;letter-spacing:.02em;padding:3px 10px;border-radius:calc(var(--radius-md)*.75);align-self:flex-start;${tagStyle(item.evidencia)}`}>{item.evidencia}</span>
+          <h3 style="font-family:var(--font-heading);font-weight:400;font-size:22px;margin:0;">{item.nombre}</h3>
+          <p style="font-size:14.5px;line-height:1.6;color:#4a463f;margin:0;">{item.resumen}</p>
+        </a>
+      ))}
+    </div>
+
+    <Footer />
+  </div>
+</Layout>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533">
+<rect width="800" height="533" fill="#ece0cc"/>
+<circle cx="700" cy="80" r="140" fill="#7a8a5e" opacity="0.14"/>
+<circle cx="60" cy="480" r="110" fill="#96621f" opacity="0.12"/>
+<circle cx="220" cy="340" r="42" fill="#96621f" opacity="0.35"/>
+<circle cx="400" cy="270" r="58" fill="#7a8a5e" opacity="0.35"/>
+<circle cx="580" cy="340" r="42" fill="#96621f" opacity="0.35"/>
+<text x="400" y="500" font-family="Georgia, serif" font-size="30" fill="#5a4a3a" text-anchor="middle" opacity="0.85">Mewing</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 533">
+<rect width="800" height="533" fill="#ebddc5"/>
+<circle cx="700" cy="80" r="140" fill="#c67139" opacity="0.14"/>
+<circle cx="60" cy="480" r="110" fill="#7a8a5e" opacity="0.12"/>
+<path d="M 480 160 A 160 160 0 1 0 480 420 A 130 130 0 1 1 480 160 Z" fill="#7a8a5e" opacity="0.32"/>
+<circle cx="290" cy="350" r="36" fill="#c67139" opacity="0.4"/>
+<text x="400" y="500" font-family="Georgia, serif" font-size="30" fill="#5a4a3a" text-anchor="middle" opacity="0.85">Piel sensible y reactiva</text>
+</svg>
